@@ -29,7 +29,7 @@ MonoBehaviour:
     Price: 10
     Weight: 5
     IconId: FantasyHeroes.Basic.MeleeWeapon1H.SmallAxe
-    SpriteId: HeroEditor.Basic.MeleeWeapon1H.SmallAxe
+    SpriteId: FantasyHeroes.Basic.MeleeWeapon1H.SmallAxe
     Meta: 
     Localization: []
   BackgroundBlue: {fileID: 21300000, guid: 6a7965a697c24a689633cfa2a821ca7e, type: 3}
