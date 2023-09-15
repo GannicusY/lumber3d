@@ -1,0 +1,17 @@
+namespace _Game.Scripts.Base
+{
+    public abstract partial class BaseSingleton<T> where T : new(){
+        private static T _Instance;
+        public static T Instance {
+            get {
+                if (_Instance == null) {
+                    _Instance = new T();
+                }
+                return _Instance;
+            }
+        }
+
+        public virtual void DoAwake() {
+        }
+    }
+}

@@ -46,6 +46,8 @@ namespace _Game.Scripts
                     _character.Animator.Play(Time.frameCount % 2 == 0 ? "UseSupply" : "ThrowSupply", 0); // Play animation randomly.
                     break;
 			}
+            
+            _character.GetReady();
         }
     }
 }

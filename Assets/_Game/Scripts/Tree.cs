@@ -54,7 +54,7 @@ namespace _Game.Scripts
         private void OnRewardDrop()
         {
             var rewardItem = Instantiate(RewardPrefab, RewardHolder).GetComponent<RewardItem>();
-            rewardItem.DropItemReward(new Item(RandomItemIdByParam()));
+            rewardItem.DropItemReward(new Item(RandomItemIdBySprite()));
         }
 
         private string RandomItemIdByParam()
@@ -72,7 +72,7 @@ namespace _Game.Scripts
             var spriteCollection = ItemCollection.Active.SpriteCollections[spriteCollectionIndex];
             var allItemSprite = spriteCollection.Armor.Union(spriteCollection.Helmet)
                 .Union(spriteCollection.MeleeWeapon1H).Union(spriteCollection.MeleeWeapon2H)
-                .Union(spriteCollection.Bow).Union(spriteCollection.Firearm1H).Union(spriteCollection.Firearm2H)
+                // .Union(spriteCollection.Bow).Union(spriteCollection.Firearm1H).Union(spriteCollection.Firearm2H)
                 .Union(spriteCollection.Shield).Union(spriteCollection.Supplies).ToList();
 
             ItemCollection.Active.Items = allItemSprite.Select(i => CreateFakeItemParams(new Item(i.Id), i, spriteCollection)).ToList();

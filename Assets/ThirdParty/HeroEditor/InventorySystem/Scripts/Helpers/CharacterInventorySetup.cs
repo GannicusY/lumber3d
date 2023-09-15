@@ -21,6 +21,7 @@ namespace Assets.HeroEditor.InventorySystem.Scripts.Helpers
                 character.Equip(item);
             }
 
+            character.GetReady();
             character.Initialize();
         }
     }

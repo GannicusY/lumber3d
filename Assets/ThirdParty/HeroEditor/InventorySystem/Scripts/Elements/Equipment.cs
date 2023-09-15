@@ -106,7 +106,6 @@ namespace Assets.HeroEditor.InventorySystem.Scripts.Elements
             if (Preview)
             {
                 CharacterInventorySetup.Setup(Preview, items);
-                Preview.Initialize();
             }
 
             OnRefresh?.Invoke();

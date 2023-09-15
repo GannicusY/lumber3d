@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using _Game.Scripts.Data;
 using Assets.HeroEditor.InventorySystem.Scripts.Data;
 using Assets.HeroEditor.InventorySystem.Scripts.Elements;
 using Assets.HeroEditor.InventorySystem.Scripts.Enums;
@@ -32,7 +33,7 @@ namespace _Game.Scripts
 
         private void LoadEquipItemsData()
         {
-            // _items = ItemCollection.Items.Select(i => new Item(i.Id)).ToList();
+            DataManager.Instance.AssignInventory(ref _items);
         }
         
         private void Initialize(ref List<Item> equippedItems, int bagSize, Action onRefresh)

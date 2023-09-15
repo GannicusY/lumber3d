@@ -1,4 +1,6 @@
 using System;
+using _Game.Scripts.Base;
+using _Game.Scripts.Data;
 using Assets.HeroEditor.Common.Scripts.CharacterScripts;
 using Assets.HeroEditor.InventorySystem.Scripts.Data;
 using UnityEngine;
@@ -6,7 +8,7 @@ using UnityEngine.UI;
 
 namespace _Game.Scripts
 {
-    public class GameManager : MonoBehaviour
+    public class GameManager : BaseMonoSingleton<GameManager>
     {
         public LumberInventory Inventory;
         public Button BtnAttack;
@@ -14,26 +16,12 @@ namespace _Game.Scripts
         public Character Axeman;
 
         private bool _blockAttack;
-        public static GameManager Instance{ get; private set; }
-
-        private void Awake()
-        {
-            if (null == Instance)
-            {
-                Instance = this;
-                DontDestroyOnLoad(gameObject);
-            }
-            else
-            {
-                Destroy(gameObject);
-                return;
-            }
-            // do other awake stuffs after instance
-        }
 
         private void Start()
         {
+            DataManager.Instance.AssignCharacter(ref Axeman);
             BtnAttack.onClick.AddListener(OnAttackClick);
+            Inventory.OnEquip = OnInventoryEquip;
         }
 
         private void OnAttackClick()
@@ -54,6 +42,12 @@ namespace _Game.Scripts
             _blockAttack = false;
             // do popup reward window
             Inventory.TryEquipNewItem(item);
+        }
+
+        private void OnInventoryEquip(Item item)
+        {
+            DataManager.Instance.SaveCharacter(Axeman);
+            DataManager.Instance.SaveInventory(Inventory.Equipment.Items);
         }
     }
 }
