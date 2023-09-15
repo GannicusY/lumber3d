@@ -59,6 +59,7 @@
      <Compile Include="Assets/ThirdParty/HeroEditor/InventorySystem/Scripts/Data/Property.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/FantasyHeroes/TestRoom/Scripts/MonsterVariation.cs" />
      <Compile Include="Assets/ThirdParty/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PlayerMovement.cs" />
+     <Compile Include="Assets/_Game/Scripts/Base/BaseMonoSingleton.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/Common/Scripts/EditorScripts/CharacterReferencesResolver.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/Common/Scripts/CharacterScripts/Firearms/FirearmReload.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/Common/SimpleColorPicker/Scripts/PaletteGradient.cs" />
@@ -88,12 +89,14 @@
      <Compile Include="Assets/ThirdParty/HeroEditor/InventorySystem/Scripts/Data/Modifier.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/Common/Scripts/Common/Springs/SpringBase.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/FantasyHeroes/TestRoom/Scripts/Monster.cs" />
+     <Compile Include="Assets/_Game/Scripts/Base/Constants.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/Common/SimpleColorPicker/Scripts/RainbowGenerator.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/InventorySystem/Scripts/Data/ItemParams.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/InventorySystem/Scripts/Elements/ScrollInventoryFilter.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/Common/Scripts/Common/SoloState.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/Common/Scripts/EditorScripts/SpriteSheetCapture.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/Common/SimpleColorPicker/Scripts/ColorJoystick.cs" />
+     <Compile Include="Assets/_Game/Scripts/Data/DataManager.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/Common/Scripts/EditorScripts/SpriteSequenceCapture.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/Common/Scripts/CharacterScripts/Character.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/Common/Scripts/ExampleScripts/InventoryExample.cs" />
@@ -119,6 +122,7 @@
      <Compile Include="Assets/ThirdParty/FantasyIconsPackFree/Demo/IconViewer.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/Common/Scripts/ExampleScripts/BowExample.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/InventorySystem/Scripts/InventoryBase.cs" />
+     <Compile Include="Assets/_Game/Scripts/Base/BaseSingleton.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/Common/Scripts/CharacterScripts/Firearms/Enums/FirearmType.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/InventorySystem/Scripts/Enums/ModificatorType.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/InventorySystem/Scripts/Enums/ElementId.cs" />
@@ -129,6 +133,7 @@
      <Compile Include="Assets/ThirdParty/HeroEditor/InventorySystem/Scripts/Elements/ScrollInventory.cs" />
      <Compile Include="Assets/_Game/Scripts/RewardItem.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/Common/Scripts/EditorScripts/NavigateButton.cs" />
+     <Compile Include="Assets/_Game/Scripts/UI/SafeArea.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/InventorySystem/Scripts/Elements/ItemWorkspace.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/Common/Scripts/Collections/IconCollection.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/Common/Scripts/CharacterScripts/Firearms/Enums/FirearmLoadType.cs" />
@@ -145,10 +150,13 @@
      <Compile Include="Assets/ThirdParty/HeroEditor/FantasyHeroes/TestRoom/Scripts/StateHandler.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/Common/Scripts/CharacterScripts/AnimationEvents.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/FantasyHeroes/TestRoom/Scripts/Tweens/TweenBase.cs" />
+     <Compile Include="Assets/_Game/Scripts/Data/ItemSerializer.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/Common/Scripts/ExampleScripts/PlayingAnimations.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/InventorySystem/Scripts/ShopBase.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/Common/Scripts/Collections/FirearmCollection.cs" />
      <Compile Include="Assets/ThirdParty/HeroEditor/Common/Scripts/ExampleScripts/RuntimeSetup.cs" />
+     <Compile Include="Assets\_Game\Scripts\Base\SerializableDictionary.cs" />
+     <Compile Include="Assets\_Game\Scripts\Data\UserInfo.cs" />
      <Folder Include="Assets" />
      <Folder Include="Library/BuildInstructions" />
      <Folder Include="Assets/ThirdParty/XEntity GameKit/Demo/Sprites" />
@@ -346,6 +354,7 @@
      <Folder Include="Assets/ThirdParty/HeroEditor/Common/Sprites/Equipment" />
      <Folder Include="Assets/ThirdParty/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Wand" />
      <Folder Include="Assets/ThirdParty/HeroEditor/FantasyHeroes/Icons/Equipment/Arrow/Basic" />
+     <Folder Include="Assets/_Game/Scripts/UI" />
      <Folder Include="Assets/ThirdParty/HeroEditor/FantasyHeroes/Icons/Equipment/Boots/Samurai" />
      <Folder Include="Assets/ThirdParty/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/SwampLords/Staff" />
      <Folder Include="Assets/ThirdParty/HeroEditor/Common/Sprites/Equipment/Cape" />
