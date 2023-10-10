@@ -1,0 +1,6772 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed33394c4164416a5b0f271499b4ed4, type: 3}
+  m_Name: ItemCollection
+  m_EditorClassIdentifier: 
+  SpriteCollections:
+  - {fileID: 11400000, guid: bbf6097b171924772b5ef0e23f8c274e, type: 2}
+  IconCollections:
+  - {fileID: 11400000, guid: 8c3f7059cbeda4f51aa10a27d8aaa41c, type: 2}
+  Items:
+  - Id: HeroEditor.Basic.Armor.ArielDress [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.ArielDress [Paint]
+    SpriteId: HeroEditor.Basic.Armor.ArielDress [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.AssassinArmor [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.AssassinArmor [Paint]
+    SpriteId: HeroEditor.Basic.Armor.AssassinArmor [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.BanditArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.BanditArmor
+    SpriteId: HeroEditor.Basic.Armor.BanditArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.BanditLightArmor [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.BanditLightArmor [Paint]
+    SpriteId: HeroEditor.Basic.Armor.BanditLightArmor [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.BerserkArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.BerserkArmor
+    SpriteId: HeroEditor.Basic.Armor.BerserkArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.BishopArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.BishopArmor
+    SpriteId: HeroEditor.Basic.Armor.BishopArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.BlacksmithCostume
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.BlacksmithCostume
+    SpriteId: HeroEditor.Basic.Armor.BlacksmithCostume
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.CardinalArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.CardinalArmor
+    SpriteId: HeroEditor.Basic.Armor.CardinalArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.CataphractArmor [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.CataphractArmor [Paint]
+    SpriteId: HeroEditor.Basic.Armor.CataphractArmor [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.ChainmailLightArmor [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.ChainmailLightArmor [Paint]
+    SpriteId: HeroEditor.Basic.Armor.ChainmailLightArmor [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.ChampionArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.ChampionArmor
+    SpriteId: HeroEditor.Basic.Armor.ChampionArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Armor.ChristmasCostume
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Armor.ChristmasCostume
+    SpriteId: HeroEditor.Christmas.Armor.ChristmasCostume
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.Cleric [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.Cleric [Paint]
+    SpriteId: HeroEditor.Basic.Armor.Cleric [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Knights.Armor.CrusaderChainmail [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Knights.Armor.CrusaderChainmail [Paint]
+    SpriteId: HeroEditor.Knights.Armor.CrusaderChainmail [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.DarkKnight
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.DarkKnight
+    SpriteId: HeroEditor.Basic.Armor.DarkKnight
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Thrones.Armor.DarkMountain
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.Armor.DarkMountain
+    SpriteId: HeroEditor.Thrones.Armor.DarkMountain
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Halloween.Armor.DeathCostume
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Halloween.Armor.DeathCostume
+    SpriteId: HeroEditor.Halloween.Armor.DeathCostume
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Halloween.Armor.DeerCostume
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Halloween.Armor.DeerCostume
+    SpriteId: HeroEditor.Halloween.Armor.DeerCostume
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.Deserter
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.Deserter
+    SpriteId: HeroEditor.Basic.Armor.Deserter
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.DestroyerArmor [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.DestroyerArmor [Paint]
+    SpriteId: HeroEditor.Basic.Armor.DestroyerArmor [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.DruidArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.DruidArmor
+    SpriteId: HeroEditor.Basic.Armor.DruidArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.DwellerArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.DwellerArmor
+    SpriteId: HeroEditor.Basic.Armor.DwellerArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Knights.Armor.EliteGuardArmor [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Knights.Armor.EliteGuardArmor [Paint]
+    SpriteId: HeroEditor.Knights.Armor.EliteGuardArmor [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Knights.Armor.FalconLightArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Knights.Armor.FalconLightArmor
+    SpriteId: HeroEditor.Knights.Armor.FalconLightArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.FarmerClothes
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.FarmerClothes
+    SpriteId: HeroEditor.Basic.Armor.FarmerClothes
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.FireAdept
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.FireAdept
+    SpriteId: HeroEditor.Basic.Armor.FireAdept
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.FireKnightArmor [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.FireKnightArmor [Paint]
+    SpriteId: HeroEditor.Basic.Armor.FireKnightArmor [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.FireWarriorArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.FireWarriorArmor
+    SpriteId: HeroEditor.Basic.Armor.FireWarriorArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.FireWizardArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.FireWizardArmor
+    SpriteId: HeroEditor.Basic.Armor.FireWizardArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Thrones.Armor.FreeFolk [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.Armor.FreeFolk [Paint]
+    SpriteId: HeroEditor.Thrones.Armor.FreeFolk [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Knights.Armor.GguardsmenArmor [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Knights.Armor.GguardsmenArmor [Paint]
+    SpriteId: HeroEditor.Knights.Armor.GguardsmenArmor [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.GladiatorArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.GladiatorArmor
+    SpriteId: HeroEditor.Basic.Armor.GladiatorArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Thrones.Armor.GoldLion
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.Armor.GoldLion
+    SpriteId: HeroEditor.Thrones.Armor.GoldLion
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.GreyKnight
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.GreyKnight
+    SpriteId: HeroEditor.Basic.Armor.GreyKnight
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.GuardArmor [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.GuardArmor [Paint]
+    SpriteId: HeroEditor.Basic.Armor.GuardArmor [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.HalberdierArmor [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.HalberdierArmor [Paint]
+    SpriteId: HeroEditor.Basic.Armor.HalberdierArmor [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.HeavyArmor [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.HeavyArmor [Paint]
+    SpriteId: HeroEditor.Basic.Armor.HeavyArmor [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.Hermit
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.Hermit
+    SpriteId: HeroEditor.Basic.Armor.Hermit
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Thrones.Armor.HorseLord
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.Armor.HorseLord
+    SpriteId: HeroEditor.Thrones.Armor.HorseLord
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.Hunter
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.Hunter
+    SpriteId: HeroEditor.Basic.Armor.Hunter
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.HunterLightArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.HunterLightArmor
+    SpriteId: HeroEditor.Basic.Armor.HunterLightArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.HunterTunic
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.HunterTunic
+    SpriteId: HeroEditor.Basic.Armor.HunterTunic
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.IceWizardArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.IceWizardArmor
+    SpriteId: HeroEditor.Basic.Armor.IceWizardArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.InquisitorArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.InquisitorArmor
+    SpriteId: HeroEditor.Basic.Armor.InquisitorArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.IronArmor [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.IronArmor [Paint]
+    SpriteId: HeroEditor.Basic.Armor.IronArmor [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Thrones.Armor.IronIslands
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.Armor.IronIslands
+    SpriteId: HeroEditor.Thrones.Armor.IronIslands
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.IronPlateArmor [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.IronPlateArmor [Paint]
+    SpriteId: HeroEditor.Basic.Armor.IronPlateArmor [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Knights.Armor.KnightArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Knights.Armor.KnightArmor
+    SpriteId: HeroEditor.Knights.Armor.KnightArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.KnightArmor [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.KnightArmor [Paint]
+    SpriteId: HeroEditor.Basic.Armor.KnightArmor [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.LandsknechtArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.LandsknechtArmor
+    SpriteId: HeroEditor.Basic.Armor.LandsknechtArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.LeatherJacket
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.LeatherJacket
+    SpriteId: HeroEditor.Basic.Armor.LeatherJacket
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.LeatherLightArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.LeatherLightArmor
+    SpriteId: HeroEditor.Basic.Armor.LeatherLightArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.LeatherRivetedArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.LeatherRivetedArmor
+    SpriteId: HeroEditor.Basic.Armor.LeatherRivetedArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Thrones.Armor.LittleLion
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.Armor.LittleLion
+    SpriteId: HeroEditor.Thrones.Armor.LittleLion
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.ManticoreArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.ManticoreArmor
+    SpriteId: HeroEditor.Basic.Armor.ManticoreArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.MarauderArmor [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.MarauderArmor [Paint]
+    SpriteId: HeroEditor.Basic.Armor.MarauderArmor [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.MercenaryArmor [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.MercenaryArmor [Paint]
+    SpriteId: HeroEditor.Basic.Armor.MercenaryArmor [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.Militiaman
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.Militiaman
+    SpriteId: HeroEditor.Basic.Armor.Militiaman
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.MinerCostume
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.MinerCostume
+    SpriteId: HeroEditor.Basic.Armor.MinerCostume
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Thrones.Armor.Mountain [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.Armor.Mountain [Paint]
+    SpriteId: HeroEditor.Thrones.Armor.Mountain [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.NecromancerArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.NecromancerArmor
+    SpriteId: HeroEditor.Basic.Armor.NecromancerArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Thrones.Armor.NightsWatch [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.Armor.NightsWatch [Paint]
+    SpriteId: HeroEditor.Thrones.Armor.NightsWatch [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Samurai.Armor.Ninja1 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.Armor.Ninja1 [Paint]
+    SpriteId: HeroEditor.Samurai.Armor.Ninja1 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Samurai.Armor.Ninja2 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.Armor.Ninja2 [Paint]
+    SpriteId: HeroEditor.Samurai.Armor.Ninja2 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Samurai.Armor.Ninja3
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.Armor.Ninja3
+    SpriteId: HeroEditor.Samurai.Armor.Ninja3
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.Nomad
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.Nomad
+    SpriteId: HeroEditor.Basic.Armor.Nomad
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Thrones.Armor.NorthWarden
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.Armor.NorthWarden
+    SpriteId: HeroEditor.Thrones.Armor.NorthWarden
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Armor.NutcrackerOutfit
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Armor.NutcrackerOutfit
+    SpriteId: HeroEditor.Christmas.Armor.NutcrackerOutfit
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.PaladinArmor [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.PaladinArmor [Paint]
+    SpriteId: HeroEditor.Basic.Armor.PaladinArmor [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.PathfinderArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.PathfinderArmor
+    SpriteId: HeroEditor.Basic.Armor.PathfinderArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.PeasantClothing
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.PeasantClothing
+    SpriteId: HeroEditor.Basic.Armor.PeasantClothing
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Halloween.Armor.PumpkinCostume
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Halloween.Armor.PumpkinCostume
+    SpriteId: HeroEditor.Halloween.Armor.PumpkinCostume
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.PyromancerArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.PyromancerArmor
+    SpriteId: HeroEditor.Basic.Armor.PyromancerArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.Rags1
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.Rags1
+    SpriteId: HeroEditor.Basic.Armor.Rags1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.Rags2
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.Rags2
+    SpriteId: HeroEditor.Basic.Armor.Rags2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.Rags3
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.Rags3
+    SpriteId: HeroEditor.Basic.Armor.Rags3
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.RangerArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.RangerArmor
+    SpriteId: HeroEditor.Basic.Armor.RangerArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Thrones.Armor.RedLion
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.Armor.RedLion
+    SpriteId: HeroEditor.Thrones.Armor.RedLion
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.Robe
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.Robe
+    SpriteId: HeroEditor.Basic.Armor.Robe
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.RoyalArcherArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.RoyalArcherArmor
+    SpriteId: HeroEditor.Basic.Armor.RoyalArcherArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.RoyalGuard
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.RoyalGuard
+    SpriteId: HeroEditor.Basic.Armor.RoyalGuard
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.Armor.SamuraiElder
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.Armor.SamuraiElder
+    SpriteId: HeroEditor.Samurai.Armor.SamuraiElder
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.Armor.SamuraiHeavy1
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.Armor.SamuraiHeavy1
+    SpriteId: HeroEditor.Samurai.Armor.SamuraiHeavy1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.Armor.SamuraiHeavy2
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.Armor.SamuraiHeavy2
+    SpriteId: HeroEditor.Samurai.Armor.SamuraiHeavy2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.Armor.SamuraiHeavy3
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.Armor.SamuraiHeavy3
+    SpriteId: HeroEditor.Samurai.Armor.SamuraiHeavy3
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.Armor.SamuraiLight1
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.Armor.SamuraiLight1
+    SpriteId: HeroEditor.Samurai.Armor.SamuraiLight1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.Armor.SamuraiLight2
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.Armor.SamuraiLight2
+    SpriteId: HeroEditor.Samurai.Armor.SamuraiLight2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.Armor.SamuraiLight3
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.Armor.SamuraiLight3
+    SpriteId: HeroEditor.Samurai.Armor.SamuraiLight3
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SandLords.Armor.SandElder
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SandLords.Armor.SandElder
+    SpriteId: HeroEditor.SandLords.Armor.SandElder
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SandLords.Armor.SandHealer1
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SandLords.Armor.SandHealer1
+    SpriteId: HeroEditor.SandLords.Armor.SandHealer1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SandLords.Armor.SandHealer2
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SandLords.Armor.SandHealer2
+    SpriteId: HeroEditor.SandLords.Armor.SandHealer2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SandLords.Armor.SandMage1
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SandLords.Armor.SandMage1
+    SpriteId: HeroEditor.SandLords.Armor.SandMage1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SandLords.Armor.SandMage2
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SandLords.Armor.SandMage2
+    SpriteId: HeroEditor.SandLords.Armor.SandMage2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SandLords.Armor.SandShooter1
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SandLords.Armor.SandShooter1
+    SpriteId: HeroEditor.SandLords.Armor.SandShooter1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SandLords.Armor.SandShooter2
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SandLords.Armor.SandShooter2
+    SpriteId: HeroEditor.SandLords.Armor.SandShooter2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Thrones.Armor.SandWarrior
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.Armor.SandWarrior
+    SpriteId: HeroEditor.Thrones.Armor.SandWarrior
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SandLords.Armor.SandWarrior1
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SandLords.Armor.SandWarrior1
+    SpriteId: HeroEditor.SandLords.Armor.SandWarrior1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SandLords.Armor.SandWarrior2
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SandLords.Armor.SandWarrior2
+    SpriteId: HeroEditor.SandLords.Armor.SandWarrior2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Armor.Santa1
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Armor.Santa1
+    SpriteId: HeroEditor.Christmas.Armor.Santa1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Armor.Santa2
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Armor.Santa2
+    SpriteId: HeroEditor.Christmas.Armor.Santa2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Armor.SantaHelper
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Armor.SantaHelper
+    SpriteId: HeroEditor.Christmas.Armor.SantaHelper
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.Scout [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.Scout [Paint]
+    SpriteId: HeroEditor.Basic.Armor.Scout [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.ShamanArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.ShamanArmor
+    SpriteId: HeroEditor.Basic.Armor.ShamanArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.SiegeArcherArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.SiegeArcherArmor
+    SpriteId: HeroEditor.Basic.Armor.SiegeArcherArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.Slave
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.Slave
+    SpriteId: HeroEditor.Basic.Armor.Slave
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.SniperArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.SniperArmor
+    SpriteId: HeroEditor.Basic.Armor.SniperArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Armor.SnowMaidenCostume
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Armor.SnowMaidenCostume
+    SpriteId: HeroEditor.Christmas.Armor.SnowMaidenCostume
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.SpearmanArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.SpearmanArmor
+    SpriteId: HeroEditor.Basic.Armor.SpearmanArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.SpikedArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.SpikedArmor
+    SpriteId: HeroEditor.Basic.Armor.SpikedArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.StormBringerArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.StormBringerArmor
+    SpriteId: HeroEditor.Basic.Armor.StormBringerArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SwampLords.Armor.SwampElder
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SwampLords.Armor.SwampElder
+    SpriteId: HeroEditor.SwampLords.Armor.SwampElder
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SwampLords.Armor.SwampHealer1
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SwampLords.Armor.SwampHealer1
+    SpriteId: HeroEditor.SwampLords.Armor.SwampHealer1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SwampLords.Armor.SwampHealer2
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SwampLords.Armor.SwampHealer2
+    SpriteId: HeroEditor.SwampLords.Armor.SwampHealer2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SwampLords.Armor.SwampMage1
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SwampLords.Armor.SwampMage1
+    SpriteId: HeroEditor.SwampLords.Armor.SwampMage1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SwampLords.Armor.SwampMage2
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SwampLords.Armor.SwampMage2
+    SpriteId: HeroEditor.SwampLords.Armor.SwampMage2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SwampLords.Armor.SwampShooter1
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SwampLords.Armor.SwampShooter1
+    SpriteId: HeroEditor.SwampLords.Armor.SwampShooter1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SwampLords.Armor.SwampShooter2
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SwampLords.Armor.SwampShooter2
+    SpriteId: HeroEditor.SwampLords.Armor.SwampShooter2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SwampLords.Armor.SwampWarrior1
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SwampLords.Armor.SwampWarrior1
+    SpriteId: HeroEditor.SwampLords.Armor.SwampWarrior1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SwampLords.Armor.SwampWarrior2
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SwampLords.Armor.SwampWarrior2
+    SpriteId: HeroEditor.SwampLords.Armor.SwampWarrior2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.ThiefArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.ThiefArmor
+    SpriteId: HeroEditor.Basic.Armor.ThiefArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.Armor.VikingFurArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.Armor.VikingFurArmor
+    SpriteId: HeroEditor.Vikings.Armor.VikingFurArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.Armor.VikingLightArmor1
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.Armor.VikingLightArmor1
+    SpriteId: HeroEditor.Vikings.Armor.VikingLightArmor1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.Armor.VikingLightArmor2
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.Armor.VikingLightArmor2
+    SpriteId: HeroEditor.Vikings.Armor.VikingLightArmor2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.Armor.VikingLightArmor3
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.Armor.VikingLightArmor3
+    SpriteId: HeroEditor.Vikings.Armor.VikingLightArmor3
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.Armor.VikingRoughArmor1
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.Armor.VikingRoughArmor1
+    SpriteId: HeroEditor.Vikings.Armor.VikingRoughArmor1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.Armor.VikingRoughArmor2
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.Armor.VikingRoughArmor2
+    SpriteId: HeroEditor.Vikings.Armor.VikingRoughArmor2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.Armor.VikingRoughArmor3 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.Armor.VikingRoughArmor3 [Paint]
+    SpriteId: HeroEditor.Vikings.Armor.VikingRoughArmor3 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.Wanderer
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.Wanderer
+    SpriteId: HeroEditor.Basic.Armor.Wanderer
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.WarlockArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.WarlockArmor
+    SpriteId: HeroEditor.Basic.Armor.WarlockArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.WaterAdept
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.WaterAdept
+    SpriteId: HeroEditor.Basic.Armor.WaterAdept
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.WaterWizardArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.WaterWizardArmor
+    SpriteId: HeroEditor.Basic.Armor.WaterWizardArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.WitchArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.WitchArmor
+    SpriteId: HeroEditor.Basic.Armor.WitchArmor
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Halloween.Armor.WitchCostume
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Halloween.Armor.WitchCostume
+    SpriteId: HeroEditor.Halloween.Armor.WitchCostume
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Armor.WitchHunterArmor [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Armor.WitchHunterArmor [Paint]
+    SpriteId: HeroEditor.Basic.Armor.WitchHunterArmor [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.AdvancedDipperHat
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.AdvancedDipperHat
+    SpriteId: HeroEditor.Basic.Helmet.AdvancedDipperHat
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.AgileHat
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.AgileHat
+    SpriteId: HeroEditor.Basic.Helmet.AgileHat
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.AmateurDipperHat
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.AmateurDipperHat
+    SpriteId: HeroEditor.Basic.Helmet.AmateurDipperHat
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.AmateurDodgeHat
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.AmateurDodgeHat
+    SpriteId: HeroEditor.Basic.Helmet.AmateurDodgeHat
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.ArcherHat
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.ArcherHat
+    SpriteId: HeroEditor.Basic.Helmet.ArcherHat
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.AssassinHood [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.AssassinHood [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.AssassinHood [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.BerserkHelm
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.BerserkHelm
+    SpriteId: HeroEditor.Basic.Helmet.BerserkHelm
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.BishopHat [FullHair]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.BishopHat [FullHair]
+    SpriteId: HeroEditor.Basic.Helmet.BishopHat [FullHair]
+    Meta: '{"FullHair"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.BlacksmithHeadband
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.BlacksmithHeadband
+    SpriteId: HeroEditor.Basic.Helmet.BlacksmithHeadband
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.BowmanHat [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.BowmanHat [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.BowmanHat [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.CardinalHat [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.CardinalHat [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.CardinalHat [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.CataphractHelm [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.CataphractHelm [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.CataphractHelm [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.ChampionHelm
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.ChampionHelm
+    SpriteId: HeroEditor.Basic.Helmet.ChampionHelm
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Chrismas.Helmet.ChristmasHat [FullHair]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Chrismas.Helmet.ChristmasHat [FullHair]
+    SpriteId: HeroEditor.Chrismas.Helmet.ChristmasHat [FullHair]
+    Meta: '{"FullHair"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.ClericHood [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.ClericHood [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.ClericHood [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Knights.Helmet.CrusaderHelm [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Knights.Helmet.CrusaderHelm [Paint]
+    SpriteId: HeroEditor.Knights.Helmet.CrusaderHelm [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Thrones.Helmet.DarkMountainHelm [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.Helmet.DarkMountainHelm [Paint]
+    SpriteId: HeroEditor.Thrones.Helmet.DarkMountainHelm [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Halloween.Helmet.DeathHood
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Halloween.Helmet.DeathHood
+    SpriteId: HeroEditor.Halloween.Helmet.DeathHood
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Halloween.Helmet.DeerHorns [FullHair]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Halloween.Helmet.DeerHorns [FullHair]
+    SpriteId: HeroEditor.Halloween.Helmet.DeerHorns [FullHair]
+    Meta: '{"FullHair"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.DeserterBandage [FullHair]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.DeserterBandage [FullHair]
+    SpriteId: HeroEditor.Basic.Helmet.DeserterBandage [FullHair]
+    Meta: '{"FullHair"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.DestroyerHelm [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.DestroyerHelm [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.DestroyerHelm [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.DruidHat [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.DruidHat [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.DruidHat [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.DwellerHood [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.DwellerHood [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.DwellerHood [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Knights.Helmet.EliteKnightHelm
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Knights.Helmet.EliteKnightHelm
+    SpriteId: HeroEditor.Knights.Helmet.EliteKnightHelm
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.EnforcedHelm [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.EnforcedHelm [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.EnforcedHelm [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.ExpertBowmanHat
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.ExpertBowmanHat
+    SpriteId: HeroEditor.Basic.Helmet.ExpertBowmanHat
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.ExpertHunterHat
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.ExpertHunterHat
+    SpriteId: HeroEditor.Basic.Helmet.ExpertHunterHat
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Knights.Helmet.FalconIronHelm
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Knights.Helmet.FalconIronHelm
+    SpriteId: HeroEditor.Knights.Helmet.FalconIronHelm
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.FireAdeptHood
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.FireAdeptHood
+    SpriteId: HeroEditor.Basic.Helmet.FireAdeptHood
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.FireWizardHood
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.FireWizardHood
+    SpriteId: HeroEditor.Basic.Helmet.FireWizardHood
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.GladiatorHelm1
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.GladiatorHelm1
+    SpriteId: HeroEditor.Basic.Helmet.GladiatorHelm1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.GladiatorHelm2
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.GladiatorHelm2
+    SpriteId: HeroEditor.Basic.Helmet.GladiatorHelm2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Knights.Helmet.GuardHelm [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Knights.Helmet.GuardHelm [Paint]
+    SpriteId: HeroEditor.Knights.Helmet.GuardHelm [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.GuardHelm1 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.GuardHelm1 [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.GuardHelm1 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.GuardHelm2 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.GuardHelm2 [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.GuardHelm2 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.GuardHelm3 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.GuardHelm3 [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.GuardHelm3 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.GypsyHat
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.GypsyHat
+    SpriteId: HeroEditor.Basic.Helmet.GypsyHat
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.HalberdierHelm [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.HalberdierHelm [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.HalberdierHelm [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.HalfmoonHat
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.HalfmoonHat
+    SpriteId: HeroEditor.Basic.Helmet.HalfmoonHat
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.HawkHelm
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.HawkHelm
+    SpriteId: HeroEditor.Basic.Helmet.HawkHelm
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.HeavyHelm [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.HeavyHelm [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.HeavyHelm [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.HermitHat
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.HermitHat
+    SpriteId: HeroEditor.Basic.Helmet.HermitHat
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.HermitHood [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.HermitHood [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.HermitHood [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.HunterHat
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.HunterHat
+    SpriteId: HeroEditor.Basic.Helmet.HunterHat
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.HunterHat1
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.HunterHat1
+    SpriteId: HeroEditor.Basic.Helmet.HunterHat1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.HunterHat2
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.HunterHat2
+    SpriteId: HeroEditor.Basic.Helmet.HunterHat2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.HunterHelm [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.HunterHelm [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.HunterHelm [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.IceWizardHood
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.IceWizardHood
+    SpriteId: HeroEditor.Basic.Helmet.IceWizardHood
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.InquisitorHat1 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.InquisitorHat1 [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.InquisitorHat1 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.InquisitorHat2 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.InquisitorHat2 [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.InquisitorHat2 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.JesterHat
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.JesterHat
+    SpriteId: HeroEditor.Basic.Helmet.JesterHat
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.KnightHelm [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.KnightHelm [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.KnightHelm [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.LandsknechtHelm [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.LandsknechtHelm [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.LandsknechtHelm [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.LeatherCap
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.LeatherCap
+    SpriteId: HeroEditor.Basic.Helmet.LeatherCap
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.LeatherHelm
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.LeatherHelm
+    SpriteId: HeroEditor.Basic.Helmet.LeatherHelm
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.ManticoreHelmet
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.ManticoreHelmet
+    SpriteId: HeroEditor.Basic.Helmet.ManticoreHelmet
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.MarauderHood
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.MarauderHood
+    SpriteId: HeroEditor.Basic.Helmet.MarauderHood
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.MasterDodgeHat
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.MasterDodgeHat
+    SpriteId: HeroEditor.Basic.Helmet.MasterDodgeHat
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.MercenaryHelm1 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.MercenaryHelm1 [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.MercenaryHelm1 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.MercenaryHelm2 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.MercenaryHelm2 [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.MercenaryHelm2 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.MilitiamanHelmet1 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.MilitiamanHelmet1 [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.MilitiamanHelmet1 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.MilitiamanHelmet2 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.MilitiamanHelmet2 [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.MilitiamanHelmet2 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.MinerHelmet
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.MinerHelmet
+    SpriteId: HeroEditor.Basic.Helmet.MinerHelmet
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Thrones.Helmet.MountainHelm [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.Helmet.MountainHelm [Paint]
+    SpriteId: HeroEditor.Thrones.Helmet.MountainHelm [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.NecromancerHood
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.NecromancerHood
+    SpriteId: HeroEditor.Basic.Helmet.NecromancerHood
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.Helmet.NinjaHelm1 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.Helmet.NinjaHelm1 [Paint]
+    SpriteId: HeroEditor.Samurai.Helmet.NinjaHelm1 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Samurai.Helmet.NinjaHelm2 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.Helmet.NinjaHelm2 [Paint]
+    SpriteId: HeroEditor.Samurai.Helmet.NinjaHelm2 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Samurai.Helmet.NinjaHelm3 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.Helmet.NinjaHelm3 [Paint]
+    SpriteId: HeroEditor.Samurai.Helmet.NinjaHelm3 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Chrismas.Helmet.NutcrackerHat
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Chrismas.Helmet.NutcrackerHat
+    SpriteId: HeroEditor.Chrismas.Helmet.NutcrackerHat
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.PaladinHelm [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.PaladinHelm [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.PaladinHelm [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.PathfinderHat [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.PathfinderHat [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.PathfinderHat [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.PathfinderHood
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.PathfinderHood
+    SpriteId: HeroEditor.Basic.Helmet.PathfinderHood
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.PeasantCap
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.PeasantCap
+    SpriteId: HeroEditor.Basic.Helmet.PeasantCap
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Halloween.Helmet.PumpkinHead
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Halloween.Helmet.PumpkinHead
+    SpriteId: HeroEditor.Halloween.Helmet.PumpkinHead
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.RangerHat [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.RangerHat [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.RangerHat [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.RoyalArcherHat
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.RoyalArcherHat
+    SpriteId: HeroEditor.Basic.Helmet.RoyalArcherHat
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.Helmet.SamuraiElderHelm
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.Helmet.SamuraiElderHelm
+    SpriteId: HeroEditor.Samurai.Helmet.SamuraiElderHelm
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.Helmet.SamuraiHelm1
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.Helmet.SamuraiHelm1
+    SpriteId: HeroEditor.Samurai.Helmet.SamuraiHelm1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.Helmet.SamuraiHelm2
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.Helmet.SamuraiHelm2
+    SpriteId: HeroEditor.Samurai.Helmet.SamuraiHelm2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.Helmet.SamuraiHelm3
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.Helmet.SamuraiHelm3
+    SpriteId: HeroEditor.Samurai.Helmet.SamuraiHelm3
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SandLords.Helmet.SandElderTurban
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SandLords.Helmet.SandElderTurban
+    SpriteId: HeroEditor.SandLords.Helmet.SandElderTurban
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SandLords.Helmet.SandHealerHood
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SandLords.Helmet.SandHealerHood
+    SpriteId: HeroEditor.SandLords.Helmet.SandHealerHood
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SandLords.Helmet.SandShooterTurban
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SandLords.Helmet.SandShooterTurban
+    SpriteId: HeroEditor.SandLords.Helmet.SandShooterTurban
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SandLords.Helmet.SandWarriorHelm1
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SandLords.Helmet.SandWarriorHelm1
+    SpriteId: HeroEditor.SandLords.Helmet.SandWarriorHelm1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SandLords.Helmet.SandWarriorHelm2
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SandLords.Helmet.SandWarriorHelm2
+    SpriteId: HeroEditor.SandLords.Helmet.SandWarriorHelm2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Helmet.SantaHat
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Helmet.SantaHat
+    SpriteId: HeroEditor.Christmas.Helmet.SantaHat
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Helmet.SantaHelperHat1
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Helmet.SantaHelperHat1
+    SpriteId: HeroEditor.Christmas.Helmet.SantaHelperHat1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Helmet.SantaHelperHat2
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Helmet.SantaHelperHat2
+    SpriteId: HeroEditor.Christmas.Helmet.SantaHelperHat2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Helmet.SantaHelperHat3
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Helmet.SantaHelperHat3
+    SpriteId: HeroEditor.Christmas.Helmet.SantaHelperHat3
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.ScoutHelm
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.ScoutHelm
+    SpriteId: HeroEditor.Basic.Helmet.ScoutHelm
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.ShamanHelm
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.ShamanHelm
+    SpriteId: HeroEditor.Basic.Helmet.ShamanHelm
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SwampLords.Helmet.ShamanMask [FullHair]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SwampLords.Helmet.ShamanMask [FullHair]
+    SpriteId: HeroEditor.SwampLords.Helmet.ShamanMask [FullHair]
+    Meta: '{"FullHair"}'
+    Localization: []
+  - Id: HeroEditor.SwampLords.Helmet.ShamanMask2 [FullHair]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SwampLords.Helmet.ShamanMask2 [FullHair]
+    SpriteId: HeroEditor.SwampLords.Helmet.ShamanMask2 [FullHair]
+    Meta: '{"FullHair"}'
+    Localization: []
+  - Id: HeroEditor.SwampLords.Helmet.ShamanMask3 [FullHair]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SwampLords.Helmet.ShamanMask3 [FullHair]
+    SpriteId: HeroEditor.SwampLords.Helmet.ShamanMask3 [FullHair]
+    Meta: '{"FullHair"}'
+    Localization: []
+  - Id: HeroEditor.Knights.Helmet.SharpHelm [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Knights.Helmet.SharpHelm [Paint]
+    SpriteId: HeroEditor.Knights.Helmet.SharpHelm [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.SiegeArcherHelm [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.SiegeArcherHelm [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.SiegeArcherHelm [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.SlaveHeadband [FullHair]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.SlaveHeadband [FullHair]
+    SpriteId: HeroEditor.Basic.Helmet.SlaveHeadband [FullHair]
+    Meta: '{"FullHair"}'
+    Localization: []
+  - Id: HeroEditor.Chrismas.Helmet.SnowMaiden [FullHair]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Chrismas.Helmet.SnowMaiden [FullHair]
+    SpriteId: HeroEditor.Chrismas.Helmet.SnowMaiden [FullHair]
+    Meta: '{"FullHair"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.SnperHood
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.SnperHood
+    SpriteId: HeroEditor.Basic.Helmet.SnperHood
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.SpearmanHelm1
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.SpearmanHelm1
+    SpriteId: HeroEditor.Basic.Helmet.SpearmanHelm1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.SpearmanHelm2
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.SpearmanHelm2
+    SpriteId: HeroEditor.Basic.Helmet.SpearmanHelm2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.SteelHelm [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.SteelHelm [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.SteelHelm [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.SteelPotHelm
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.SteelPotHelm
+    SpriteId: HeroEditor.Basic.Helmet.SteelPotHelm
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.StrawHat
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.StrawHat
+    SpriteId: HeroEditor.Basic.Helmet.StrawHat
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SwampLords.Helmet.SwampLordMask1 [FullHair]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SwampLords.Helmet.SwampLordMask1 [FullHair]
+    SpriteId: HeroEditor.SwampLords.Helmet.SwampLordMask1 [FullHair]
+    Meta: '{"FullHair"}'
+    Localization: []
+  - Id: HeroEditor.SwampLords.Helmet.SwampLordMask2  [FullHair]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SwampLords.Helmet.SwampLordMask2  [FullHair]
+    SpriteId: HeroEditor.SwampLords.Helmet.SwampLordMask2  [FullHair]
+    Meta: '{"FullHair"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.ThiefHelm [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.ThiefHelm [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.ThiefHelm [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Vikings.Helmet.VikingIronHelm1
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.Helmet.VikingIronHelm1
+    SpriteId: HeroEditor.Vikings.Helmet.VikingIronHelm1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.Helmet.VikingIronHelm2
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.Helmet.VikingIronHelm2
+    SpriteId: HeroEditor.Vikings.Helmet.VikingIronHelm2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.Helmet.VikingIronHelm3
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.Helmet.VikingIronHelm3
+    SpriteId: HeroEditor.Vikings.Helmet.VikingIronHelm3
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.Helmet.VikingLeatherHelm
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.Helmet.VikingLeatherHelm
+    SpriteId: HeroEditor.Vikings.Helmet.VikingLeatherHelm
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.VisorKnightHelm [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.VisorKnightHelm [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.VisorKnightHelm [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.WarlockHood
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.WarlockHood
+    SpriteId: HeroEditor.Basic.Helmet.WarlockHood
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Knights.Helmet.WarriorHelm [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Knights.Helmet.WarriorHelm [Paint]
+    SpriteId: HeroEditor.Knights.Helmet.WarriorHelm [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.WaterWizardHelm
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.WaterWizardHelm
+    SpriteId: HeroEditor.Basic.Helmet.WaterWizardHelm
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Halloween.Helmet.WitchHat
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Halloween.Helmet.WitchHat
+    SpriteId: HeroEditor.Halloween.Helmet.WitchHat
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.WitchHat [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.WitchHat [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.WitchHat [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Helmet.WitchHunterHat [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Helmet.WitchHunterHat [Paint]
+    SpriteId: HeroEditor.Basic.Helmet.WitchHunterHat [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.AspenStake
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.AspenStake
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.AspenStake
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.AssassinDagger [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.AssassinDagger [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.AssassinDagger [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Knights.MeleeWeapon1H.BalancedSword [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Knights.MeleeWeapon1H.BalancedSword [Paint]
+    SpriteId: HeroEditor.Knights.MeleeWeapon1H.BalancedSword [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.Bilbo
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.Bilbo
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.Bilbo
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.BishopWand
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.BishopWand
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.BishopWand
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.BlacksmithHammer
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.BlacksmithHammer
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.BlacksmithHammer
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.BoneClub
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.BoneClub
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.BoneClub
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.BronzeDagger
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.BronzeDagger
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.BronzeDagger
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.MeleeWeapon1H.CandyHammer
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.MeleeWeapon1H.CandyHammer
+    SpriteId: HeroEditor.Christmas.MeleeWeapon1H.CandyHammer
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.CardinalWand
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.CardinalWand
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.CardinalWand
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.ClericWand1
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.ClericWand1
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.ClericWand1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.ClericWand2
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.ClericWand2
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.ClericWand2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.CursedBone
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.CursedBone
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.CursedBone
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.DarkStoneHammer
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.DarkStoneHammer
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.DarkStoneHammer
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.DeserterDagger [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.DeserterDagger [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.DeserterDagger [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.DreadCleaver
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.DreadCleaver
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.DreadCleaver
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.DrownedGoblinHand
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.DrownedGoblinHand
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.DrownedGoblinHand
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.DruidWand
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.DruidWand
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.DruidWand
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.DwellerWand
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.DwellerWand
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.DwellerWand
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SwampLords.MeleeWeapon1H.ElderStaff
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SwampLords.MeleeWeapon1H.ElderStaff
+    SpriteId: HeroEditor.SwampLords.MeleeWeapon1H.ElderStaff
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Knights.MeleeWeapon1H.EliteGuardSword [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Knights.MeleeWeapon1H.EliteGuardSword [Paint]
+    SpriteId: HeroEditor.Knights.MeleeWeapon1H.EliteGuardSword [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Knights.MeleeWeapon1H.EliteKnightSword [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Knights.MeleeWeapon1H.EliteKnightSword [Paint]
+    SpriteId: HeroEditor.Knights.MeleeWeapon1H.EliteKnightSword [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.FamilySword
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.FamilySword
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.FamilySword
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.FireAdeptWand1
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.FireAdeptWand1
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.FireAdeptWand1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.FireAdeptWand2
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.FireAdeptWand2
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.FireAdeptWand2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.FireWarriorSword1
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.FireWarriorSword1
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.FireWarriorSword1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.FireWarriorSword2
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.FireWarriorSword2
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.FireWarriorSword2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.FireWizardWand
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.FireWizardWand
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.FireWizardWand
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Thrones.MeleeWeapon1H.FreeFolkAxe
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.MeleeWeapon1H.FreeFolkAxe
+    SpriteId: HeroEditor.Thrones.MeleeWeapon1H.FreeFolkAxe
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.GuardSword1 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.GuardSword1 [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.GuardSword1 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.GuardSword2 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.GuardSword2 [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.GuardSword2 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.HardwoodWand
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.HardwoodWand
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.HardwoodWand
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.HermitWand
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.HermitWand
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.HermitWand
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Thrones.MeleeWeapon1H.HorseLordSickle
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.MeleeWeapon1H.HorseLordSickle
+    SpriteId: HeroEditor.Thrones.MeleeWeapon1H.HorseLordSickle
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.HunterKnife [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.HunterKnife [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.HunterKnife [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.IceWizardWand
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.IceWizardWand
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.IceWizardWand
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.InquisitorSword1 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.InquisitorSword1 [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.InquisitorSword1 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.InquisitorSword2 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.InquisitorSword2 [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.InquisitorSword2 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.InquisitorSword3 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.InquisitorSword3 [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.InquisitorSword3 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.InquisitorSword4 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.InquisitorSword4 [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.InquisitorSword4 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.IronHammer
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.IronHammer
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.IronHammer
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Thrones.MeleeWeapon1H.IronIslandsSword [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.MeleeWeapon1H.IronIslandsSword [Paint]
+    SpriteId: HeroEditor.Thrones.MeleeWeapon1H.IronIslandsSword [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Samurai.MeleeWeapon1H.Katana1 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.MeleeWeapon1H.Katana1 [Paint]
+    SpriteId: HeroEditor.Samurai.MeleeWeapon1H.Katana1 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Samurai.MeleeWeapon1H.Katana2 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.MeleeWeapon1H.Katana2 [Paint]
+    SpriteId: HeroEditor.Samurai.MeleeWeapon1H.Katana2 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Samurai.MeleeWeapon1H.Katana3 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.MeleeWeapon1H.Katana3 [Paint]
+    SpriteId: HeroEditor.Samurai.MeleeWeapon1H.Katana3 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.KnightSword [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.KnightSword [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.KnightSword [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Samurai.MeleeWeapon1H.Kunai
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.MeleeWeapon1H.Kunai
+    SpriteId: HeroEditor.Samurai.MeleeWeapon1H.Kunai
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Thrones.MeleeWeapon1H.LionSword [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.MeleeWeapon1H.LionSword [Paint]
+    SpriteId: HeroEditor.Thrones.MeleeWeapon1H.LionSword [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Thrones.MeleeWeapon1H.LittleLionSword [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.MeleeWeapon1H.LittleLionSword [Paint]
+    SpriteId: HeroEditor.Thrones.MeleeWeapon1H.LittleLionSword [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.Machete [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.Machete [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.Machete [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.MagicSword [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.MagicSword [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.MagicSword [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.MalformedStaff
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.MalformedStaff
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.MalformedStaff
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.ManticoreSword
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.ManticoreSword
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.ManticoreSword
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.MilitiamanShortSword [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.MilitiamanShortSword [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.MilitiamanShortSword [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.Morgana
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.Morgana
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.Morgana
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.Morgenstern
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.Morgenstern
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.Morgenstern
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.MeleeWeapon1H.Ninjato [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.MeleeWeapon1H.Ninjato [Paint]
+    SpriteId: HeroEditor.Samurai.MeleeWeapon1H.Ninjato [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Thrones.MeleeWeapon1H.NorthWardenSword [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.MeleeWeapon1H.NorthWardenSword [Paint]
+    SpriteId: HeroEditor.Thrones.MeleeWeapon1H.NorthWardenSword [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Christmas.MeleeWeapon1H.NutcrackerHammer
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.MeleeWeapon1H.NutcrackerHammer
+    SpriteId: HeroEditor.Christmas.MeleeWeapon1H.NutcrackerHammer
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.PyromancerWand
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.PyromancerWand
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.PyromancerWand
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.RunicAxe
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.RunicAxe
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.RunicAxe
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.RustedHammer
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.RustedHammer
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.RustedHammer
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.RustySword
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.RustySword
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.RustySword
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.MeleeWeapon1H.Sai [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.MeleeWeapon1H.Sai [Paint]
+    SpriteId: HeroEditor.Samurai.MeleeWeapon1H.Sai [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.SandLords.MeleeWeapon1H.SandElderStaff
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SandLords.MeleeWeapon1H.SandElderStaff
+    SpriteId: HeroEditor.SandLords.MeleeWeapon1H.SandElderStaff
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SandLords.MeleeWeapon1H.SandHealerStaff1
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SandLords.MeleeWeapon1H.SandHealerStaff1
+    SpriteId: HeroEditor.SandLords.MeleeWeapon1H.SandHealerStaff1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SandLords.MeleeWeapon1H.SandHealerStaff2
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SandLords.MeleeWeapon1H.SandHealerStaff2
+    SpriteId: HeroEditor.SandLords.MeleeWeapon1H.SandHealerStaff2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SandLords.MeleeWeapon1H.SandMageStaff1
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SandLords.MeleeWeapon1H.SandMageStaff1
+    SpriteId: HeroEditor.SandLords.MeleeWeapon1H.SandMageStaff1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SandLords.MeleeWeapon1H.SandMageStaff2
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SandLords.MeleeWeapon1H.SandMageStaff2
+    SpriteId: HeroEditor.SandLords.MeleeWeapon1H.SandMageStaff2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SandLords.MeleeWeapon1H.SandWarriorSword1
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SandLords.MeleeWeapon1H.SandWarriorSword1
+    SpriteId: HeroEditor.SandLords.MeleeWeapon1H.SandWarriorSword1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SandLords.MeleeWeapon1H.SandWarriorSword2
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SandLords.MeleeWeapon1H.SandWarriorSword2
+    SpriteId: HeroEditor.SandLords.MeleeWeapon1H.SandWarriorSword2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.MeleeWeapon1H.SantaHelperWand
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.MeleeWeapon1H.SantaHelperWand
+    SpriteId: HeroEditor.Christmas.MeleeWeapon1H.SantaHelperWand
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.MeleeWeapon1H.SantaWand
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.MeleeWeapon1H.SantaWand
+    SpriteId: HeroEditor.Christmas.MeleeWeapon1H.SantaWand
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.ShamanWand
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.ShamanWand
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.ShamanWand
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.ShortDagger [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.ShortDagger [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.ShortDagger [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.ShortIronKatana [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.ShortIronKatana [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.ShortIronKatana [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Knights.MeleeWeapon1H.ShortKnightSword [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Knights.MeleeWeapon1H.ShortKnightSword [Paint]
+    SpriteId: HeroEditor.Knights.MeleeWeapon1H.ShortKnightSword [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.ShortSword [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.ShortSword [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.ShortSword [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.SlaveSword [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.SlaveSword [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.SlaveSword [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.SmallAxe
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.SmallAxe
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.SmallAxe
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.Smallsword
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.Smallsword
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.Smallsword
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.Stoccata
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.Stoccata
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.Stoccata
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.StoneAxe
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.StoneAxe
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.StoneAxe
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.StormBringerWand
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.StormBringerWand
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.StormBringerWand
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SwampLords.MeleeWeapon1H.SwampHealer1Staff
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SwampLords.MeleeWeapon1H.SwampHealer1Staff
+    SpriteId: HeroEditor.SwampLords.MeleeWeapon1H.SwampHealer1Staff
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SwampLords.MeleeWeapon1H.SwampHealer2Staff
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SwampLords.MeleeWeapon1H.SwampHealer2Staff
+    SpriteId: HeroEditor.SwampLords.MeleeWeapon1H.SwampHealer2Staff
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SwampLords.MeleeWeapon1H.SwampMage1Staff
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SwampLords.MeleeWeapon1H.SwampMage1Staff
+    SpriteId: HeroEditor.SwampLords.MeleeWeapon1H.SwampMage1Staff
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SwampLords.MeleeWeapon1H.SwampMage2Staff
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SwampLords.MeleeWeapon1H.SwampMage2Staff
+    SpriteId: HeroEditor.SwampLords.MeleeWeapon1H.SwampMage2Staff
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.SwampLords.MeleeWeapon1H.SwampWarriorSpear
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.SwampLords.MeleeWeapon1H.SwampWarriorSpear
+    SpriteId: HeroEditor.SwampLords.MeleeWeapon1H.SwampWarriorSpear
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.TrainingSword [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.TrainingSword [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.TrainingSword [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Vikings.MeleeWeapon1H.VikingAxe1
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.MeleeWeapon1H.VikingAxe1
+    SpriteId: HeroEditor.Vikings.MeleeWeapon1H.VikingAxe1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.MeleeWeapon1H.VikingAxe2
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.MeleeWeapon1H.VikingAxe2
+    SpriteId: HeroEditor.Vikings.MeleeWeapon1H.VikingAxe2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.MeleeWeapon1H.VikingAxe3
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.MeleeWeapon1H.VikingAxe3
+    SpriteId: HeroEditor.Vikings.MeleeWeapon1H.VikingAxe3
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.MeleeWeapon1H.VikingSword1
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.MeleeWeapon1H.VikingSword1
+    SpriteId: HeroEditor.Vikings.MeleeWeapon1H.VikingSword1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.MeleeWeapon1H.VikingSword2 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.MeleeWeapon1H.VikingSword2 [Paint]
+    SpriteId: HeroEditor.Vikings.MeleeWeapon1H.VikingSword2 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Vikings.MeleeWeapon1H.VikingSword3 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.MeleeWeapon1H.VikingSword3 [Paint]
+    SpriteId: HeroEditor.Vikings.MeleeWeapon1H.VikingSword3 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.WarHammer
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.WarHammer
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.WarHammer
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.WarlockWand
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.WarlockWand
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.WarlockWand
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.WaterAdeptWand1
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.WaterAdeptWand1
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.WaterAdeptWand1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.WaterAdeptWand2
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.WaterAdeptWand2
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.WaterAdeptWand2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.WaterWizardWand
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.WaterWizardWand
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.WaterWizardWand
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.WitchWand
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.WitchWand
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.WitchWand
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Thrones.MeleeWeapon1H.WolfSword [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.MeleeWeapon1H.WolfSword [Paint]
+    SpriteId: HeroEditor.Thrones.MeleeWeapon1H.WolfSword [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.WoodcutterAxe
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.WoodcutterAxe
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.WoodcutterAxe
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.WoodenClub
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.WoodenClub
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.WoodenClub
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.WoodenMace
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.WoodenMace
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.WoodenMace
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon1H.WoodenSpikedClub
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon1H.WoodenSpikedClub
+    SpriteId: HeroEditor.Basic.MeleeWeapon1H.WoodenSpikedClub
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.BerserkAxe
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.BerserkAxe
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.BerserkAxe
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.BlackHammer
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.BlackHammer
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.BlackHammer
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.BrassPickaxe
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.BrassPickaxe
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.BrassPickaxe
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.BroadSword
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.BroadSword
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.BroadSword
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.BronzePickaxe
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.BronzePickaxe
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.BronzePickaxe
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.CataphractSpear
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.CataphractSpear
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.CataphractSpear
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.CopperPickaxe
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.CopperPickaxe
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.CopperPickaxe
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.MeleeWeapon2H.DarkSword
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.MeleeWeapon2H.DarkSword
+    SpriteId: HeroEditor.Samurai.MeleeWeapon2H.DarkSword
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Halloween.MeleeWeapon2H.DeathScythe
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Halloween.MeleeWeapon2H.DeathScythe
+    SpriteId: HeroEditor.Halloween.MeleeWeapon2H.DeathScythe
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.DestroyerAxe
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.DestroyerAxe
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.DestroyerAxe
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.FireKnightSword [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.FireKnightSword [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.FireKnightSword [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.GateCrusher
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.GateCrusher
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.GateCrusher
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.Halberd
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.Halberd
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.Halberd
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.Harpoon
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.Harpoon
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.Harpoon
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.HeavySword [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.HeavySword [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.HeavySword [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.IronPickaxe
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.IronPickaxe
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.IronPickaxe
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.LongHammer
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.LongHammer
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.LongHammer
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.MercenarySword1 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.MercenarySword1 [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.MercenarySword1 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.MercenarySword2 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.MercenarySword2 [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.MercenarySword2 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Thrones.MeleeWeapon2H.MountainSword [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.MeleeWeapon2H.MountainSword [Paint]
+    SpriteId: HeroEditor.Thrones.MeleeWeapon2H.MountainSword [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.OldPoleaxe
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.OldPoleaxe
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.OldPoleaxe
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.PaladinSword [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.PaladinSword [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.PaladinSword [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.RustedPickaxe
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.RustedPickaxe
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.RustedPickaxe
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.MeleeWeapon2H.SamuraiElderSword
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.MeleeWeapon2H.SamuraiElderSword
+    SpriteId: HeroEditor.Samurai.MeleeWeapon2H.SamuraiElderSword
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.MeleeWeapon2H.SamuraiSword1
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.MeleeWeapon2H.SamuraiSword1
+    SpriteId: HeroEditor.Samurai.MeleeWeapon2H.SamuraiSword1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.MeleeWeapon2H.SamuraiSword2
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.MeleeWeapon2H.SamuraiSword2
+    SpriteId: HeroEditor.Samurai.MeleeWeapon2H.SamuraiSword2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.MeleeWeapon2H.SamuraiSword2 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.MeleeWeapon2H.SamuraiSword2 [Paint]
+    SpriteId: HeroEditor.Samurai.MeleeWeapon2H.SamuraiSword2 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Samurai.MeleeWeapon2H.SamuraiSword3
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.MeleeWeapon2H.SamuraiSword3
+    SpriteId: HeroEditor.Samurai.MeleeWeapon2H.SamuraiSword3
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.MeleeWeapon2H.SamuraiSword3 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.MeleeWeapon2H.SamuraiSword3 [Paint]
+    SpriteId: HeroEditor.Samurai.MeleeWeapon2H.SamuraiSword3 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Thrones.MeleeWeapon2H.SandWarriorHalberd
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.MeleeWeapon2H.SandWarriorHalberd
+    SpriteId: HeroEditor.Thrones.MeleeWeapon2H.SandWarriorHalberd
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.Scythe
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.Scythe
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.Scythe
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.MeleeWeapon2H.ShadowSword
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.MeleeWeapon2H.ShadowSword
+    SpriteId: HeroEditor.Samurai.MeleeWeapon2H.ShadowSword
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.SiegeSpear
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.SiegeSpear
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.SiegeSpear
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.Spear
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.Spear
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.Spear
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.SteelAxe
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.SteelAxe
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.SteelAxe
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.SteelPickaxe
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.SteelPickaxe
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.SteelPickaxe
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.MeleeWeapon2H.SunriseSword
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.MeleeWeapon2H.SunriseSword
+    SpriteId: HeroEditor.Samurai.MeleeWeapon2H.SunriseSword
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.TitanHammer
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.TitanHammer
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.TitanHammer
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Knights.MeleeWeapon2H.TwoHandedSword [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Knights.MeleeWeapon2H.TwoHandedSword [Paint]
+    SpriteId: HeroEditor.Knights.MeleeWeapon2H.TwoHandedSword [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Vikings.MeleeWeapon2H.TwoHandedVikingAxe1
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.MeleeWeapon2H.TwoHandedVikingAxe1
+    SpriteId: HeroEditor.Vikings.MeleeWeapon2H.TwoHandedVikingAxe1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.MeleeWeapon2H.TwoHandedVikingAxe2
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.MeleeWeapon2H.TwoHandedVikingAxe2
+    SpriteId: HeroEditor.Vikings.MeleeWeapon2H.TwoHandedVikingAxe2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.MeleeWeapon2H.TwoHandedVikingAxe3
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.MeleeWeapon2H.TwoHandedVikingAxe3
+    SpriteId: HeroEditor.Vikings.MeleeWeapon2H.TwoHandedVikingAxe3
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.MeleeWeapon2H.TwoHandedVikingSword1
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.MeleeWeapon2H.TwoHandedVikingSword1
+    SpriteId: HeroEditor.Vikings.MeleeWeapon2H.TwoHandedVikingSword1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.MeleeWeapon2H.TwoHandedVikingSword2 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.MeleeWeapon2H.TwoHandedVikingSword2 [Paint]
+    SpriteId: HeroEditor.Vikings.MeleeWeapon2H.TwoHandedVikingSword2 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Vikings.MeleeWeapon2H.TwoHandedVikingSword3 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.MeleeWeapon2H.TwoHandedVikingSword3 [Paint]
+    SpriteId: HeroEditor.Vikings.MeleeWeapon2H.TwoHandedVikingSword3 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.TwoHandedWoodenMace
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.TwoHandedWoodenMace
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.TwoHandedWoodenMace
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.WarClub
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.WarClub
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.WarClub
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.WoodcutterPoleaxe
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.WoodcutterPoleaxe
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.WoodcutterPoleaxe
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.WoodenStake
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.WoodenStake
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.WoodenStake
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.MeleeWeapon2H.Zweihander [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 6
+    Class: 0
+    Tags: 03000000
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.MeleeWeapon2H.Zweihander [Paint]
+    SpriteId: HeroEditor.Basic.MeleeWeapon2H.Zweihander [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.AdvancedGladiatorShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.AdvancedGladiatorShield
+    SpriteId: HeroEditor.Basic.Shield.AdvancedGladiatorShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.AdvancedKnightShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.AdvancedKnightShield
+    SpriteId: HeroEditor.Basic.Shield.AdvancedKnightShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.BasicIronShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.BasicIronShield
+    SpriteId: HeroEditor.Basic.Shield.BasicIronShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Knights.Shield.BlueKnightShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Knights.Shield.BlueKnightShield
+    SpriteId: HeroEditor.Knights.Shield.BlueKnightShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.BottleBomb
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.BottleBomb
+    SpriteId: HeroEditor.Basic.Shield.BottleBomb
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Shield.CaramelShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Shield.CaramelShield
+    SpriteId: HeroEditor.Christmas.Shield.CaramelShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.CardinalBook
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.CardinalBook
+    SpriteId: HeroEditor.Basic.Shield.CardinalBook
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.CataphractShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.CataphractShield
+    SpriteId: HeroEditor.Basic.Shield.CataphractShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.ChampionShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.ChampionShield
+    SpriteId: HeroEditor.Basic.Shield.ChampionShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.CrusaderShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.CrusaderShield
+    SpriteId: HeroEditor.Basic.Shield.CrusaderShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Knights.Shield.CrusaderShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Knights.Shield.CrusaderShield
+    SpriteId: HeroEditor.Knights.Shield.CrusaderShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.DarkKnightShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.DarkKnightShield
+    SpriteId: HeroEditor.Basic.Shield.DarkKnightShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.FireKnightShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.FireKnightShield
+    SpriteId: HeroEditor.Basic.Shield.FireKnightShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.FireWarriorShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.FireWarriorShield
+    SpriteId: HeroEditor.Basic.Shield.FireWarriorShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.GladiatorShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.GladiatorShield
+    SpriteId: HeroEditor.Basic.Shield.GladiatorShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Thrones.Shield.GoldLionShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.Shield.GoldLionShield
+    SpriteId: HeroEditor.Thrones.Shield.GoldLionShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.GreyKnightShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.GreyKnightShield
+    SpriteId: HeroEditor.Basic.Shield.GreyKnightShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.GuardShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.GuardShield
+    SpriteId: HeroEditor.Basic.Shield.GuardShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.GuardShield1
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.GuardShield1
+    SpriteId: HeroEditor.Basic.Shield.GuardShield1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.GuardShield2
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.GuardShield2
+    SpriteId: HeroEditor.Basic.Shield.GuardShield2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.HermitLamp
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.HermitLamp
+    SpriteId: HeroEditor.Basic.Shield.HermitLamp
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.Shield.IronShield1
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.Shield.IronShield1
+    SpriteId: HeroEditor.Vikings.Shield.IronShield1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.Shield.IronShield2
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.Shield.IronShield2
+    SpriteId: HeroEditor.Vikings.Shield.IronShield2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.Shield.IronShield3
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.Shield.IronShield3
+    SpriteId: HeroEditor.Vikings.Shield.IronShield3
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.KiteShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.KiteShield
+    SpriteId: HeroEditor.Basic.Shield.KiteShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.KnightShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.KnightShield
+    SpriteId: HeroEditor.Basic.Shield.KnightShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.LandsknechtShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.LandsknechtShield
+    SpriteId: HeroEditor.Basic.Shield.LandsknechtShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.ManticoreShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.ManticoreShield
+    SpriteId: HeroEditor.Basic.Shield.ManticoreShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.MilitiamanShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.MilitiamanShield
+    SpriteId: HeroEditor.Basic.Shield.MilitiamanShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Thrones.Shield.MountainShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.Shield.MountainShield
+    SpriteId: HeroEditor.Thrones.Shield.MountainShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.NecromancerShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.NecromancerShield
+    SpriteId: HeroEditor.Basic.Shield.NecromancerShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.Shield.NinjaShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.Shield.NinjaShield
+    SpriteId: HeroEditor.Samurai.Shield.NinjaShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.OldHeavyShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.OldHeavyShield
+    SpriteId: HeroEditor.Basic.Shield.OldHeavyShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Thrones.Shield.RedLionShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Thrones.Shield.RedLionShield
+    SpriteId: HeroEditor.Thrones.Shield.RedLionShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.Shield.SamuraiShield1
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.Shield.SamuraiShield1
+    SpriteId: HeroEditor.Samurai.Shield.SamuraiShield1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.Shield.SamuraiShield2
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.Shield.SamuraiShield2
+    SpriteId: HeroEditor.Samurai.Shield.SamuraiShield2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Samurai.Shield.SamuraiShield3
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Samurai.Shield.SamuraiShield3
+    SpriteId: HeroEditor.Samurai.Shield.SamuraiShield3
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.SpikedShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.SpikedShield
+    SpriteId: HeroEditor.Basic.Shield.SpikedShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Knights.Shield.SteelShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Knights.Shield.SteelShield
+    SpriteId: HeroEditor.Knights.Shield.SteelShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.SteelTowerShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.SteelTowerShield
+    SpriteId: HeroEditor.Basic.Shield.SteelTowerShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.TowerShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.TowerShield
+    SpriteId: HeroEditor.Basic.Shield.TowerShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Knights.Shield.WarriorShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Knights.Shield.WarriorShield
+    SpriteId: HeroEditor.Knights.Shield.WarriorShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.WoodenBuckler
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.WoodenBuckler
+    SpriteId: HeroEditor.Basic.Shield.WoodenBuckler
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Shield.WoodenShield
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Shield.WoodenShield
+    SpriteId: HeroEditor.Basic.Shield.WoodenShield
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.Shield.WoodenShield1
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.Shield.WoodenShield1
+    SpriteId: HeroEditor.Vikings.Shield.WoodenShield1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.Shield.WoodenShield2
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.Shield.WoodenShield2
+    SpriteId: HeroEditor.Vikings.Shield.WoodenShield2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Vikings.Shield.WoodenShield3
+    Level: 0
+    Rarity: 0
+    Type: 9
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Vikings.Shield.WoodenShield3
+    SpriteId: HeroEditor.Vikings.Shield.WoodenShield3
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Apple
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Apple
+    SpriteId: HeroEditor.Basic.Supplies.Apple
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Axeorang
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Axeorang
+    SpriteId: HeroEditor.Basic.Supplies.Axeorang
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Boomerang
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Boomerang
+    SpriteId: HeroEditor.Basic.Supplies.Boomerang
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Boomerang [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Boomerang [Paint]
+    SpriteId: HeroEditor.Basic.Supplies.Boomerang [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Bottle1
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Bottle1
+    SpriteId: HeroEditor.Basic.Supplies.Bottle1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Bottle2
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Bottle2
+    SpriteId: HeroEditor.Basic.Supplies.Bottle2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Brainz
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Brainz
+    SpriteId: HeroEditor.Basic.Supplies.Brainz
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.BronzeEyeRing
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.BronzeEyeRing
+    SpriteId: HeroEditor.Basic.Supplies.BronzeEyeRing
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.BronzeRing
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.BronzeRing
+    SpriteId: HeroEditor.Basic.Supplies.BronzeRing
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Cheese
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Cheese
+    SpriteId: HeroEditor.Basic.Supplies.Cheese
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.ChickenLeg
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.ChickenLeg
+    SpriteId: HeroEditor.Basic.Supplies.ChickenLeg
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Supplies.ChristmasBell
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Supplies.ChristmasBell
+    SpriteId: HeroEditor.Christmas.Supplies.ChristmasBell
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Supplies.ChristmasCandy
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Supplies.ChristmasCandy
+    SpriteId: HeroEditor.Christmas.Supplies.ChristmasCandy
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Supplies.ChristmasPresent
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Supplies.ChristmasPresent
+    SpriteId: HeroEditor.Christmas.Supplies.ChristmasPresent
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Supplies.ChristmasStocking
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Supplies.ChristmasStocking
+    SpriteId: HeroEditor.Christmas.Supplies.ChristmasStocking
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Supplies.ChristmasTreeToy
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Supplies.ChristmasTreeToy
+    SpriteId: HeroEditor.Christmas.Supplies.ChristmasTreeToy
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Supplies.ChristmasTurkey
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Supplies.ChristmasTurkey
+    SpriteId: HeroEditor.Christmas.Supplies.ChristmasTurkey
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Supplies.ChristmasWreath
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Supplies.ChristmasWreath
+    SpriteId: HeroEditor.Christmas.Supplies.ChristmasWreath
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Coin
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Coin
+    SpriteId: HeroEditor.Basic.Supplies.Coin
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.DecoratedSilverRing
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.DecoratedSilverRing
+    SpriteId: HeroEditor.Basic.Supplies.DecoratedSilverRing
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Diamond
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Diamond
+    SpriteId: HeroEditor.Basic.Supplies.Diamond
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Supplies.Eggnog
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Supplies.Eggnog
+    SpriteId: HeroEditor.Christmas.Supplies.Eggnog
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.ElegantGoldenRing
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.ElegantGoldenRing
+    SpriteId: HeroEditor.Basic.Supplies.ElegantGoldenRing
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.FireballScroll
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.FireballScroll
+    SpriteId: HeroEditor.Basic.Supplies.FireballScroll
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Flute
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Flute
+    SpriteId: HeroEditor.Basic.Supplies.Flute
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Supplies.Fruitcake
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Supplies.Fruitcake
+    SpriteId: HeroEditor.Christmas.Supplies.Fruitcake
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Gems
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Gems
+    SpriteId: HeroEditor.Basic.Supplies.Gems
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Supplies.GingerbreadMan
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Supplies.GingerbreadMan
+    SpriteId: HeroEditor.Christmas.Supplies.GingerbreadMan
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Gold
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Gold
+    SpriteId: HeroEditor.Basic.Supplies.Gold
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.GoldenRing
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.GoldenRing
+    SpriteId: HeroEditor.Basic.Supplies.GoldenRing
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Grog
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Grog
+    SpriteId: HeroEditor.Basic.Supplies.Grog
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Ham
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Ham
+    SpriteId: HeroEditor.Basic.Supplies.Ham
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Hamburger
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Hamburger
+    SpriteId: HeroEditor.Basic.Supplies.Hamburger
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.HandBomb
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.HandBomb
+    SpriteId: HeroEditor.Basic.Supplies.HandBomb
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Supplies.HolyHandGrenade
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Supplies.HolyHandGrenade
+    SpriteId: HeroEditor.Christmas.Supplies.HolyHandGrenade
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Lamp
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Lamp
+    SpriteId: HeroEditor.Basic.Supplies.Lamp
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.LargePotion
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.LargePotion
+    SpriteId: HeroEditor.Basic.Supplies.LargePotion
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.LargePotion [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.LargePotion [Paint]
+    SpriteId: HeroEditor.Basic.Supplies.LargePotion [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.MagicBomb
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.MagicBomb
+    SpriteId: HeroEditor.Basic.Supplies.MagicBomb
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.MagicBronzeRing
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.MagicBronzeRing
+    SpriteId: HeroEditor.Basic.Supplies.MagicBronzeRing
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.MagicGoldenRing
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.MagicGoldenRing
+    SpriteId: HeroEditor.Basic.Supplies.MagicGoldenRing
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.MagicSilverRing
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.MagicSilverRing
+    SpriteId: HeroEditor.Basic.Supplies.MagicSilverRing
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.MediumPotion
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.MediumPotion
+    SpriteId: HeroEditor.Basic.Supplies.MediumPotion
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.MediumPotion [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.MediumPotion [Paint]
+    SpriteId: HeroEditor.Basic.Supplies.MediumPotion [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Potion1
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Potion1
+    SpriteId: HeroEditor.Basic.Supplies.Potion1
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Potion1 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Potion1 [Paint]
+    SpriteId: HeroEditor.Basic.Supplies.Potion1 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Potion2
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Potion2
+    SpriteId: HeroEditor.Basic.Supplies.Potion2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Potion2 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Potion2 [Paint]
+    SpriteId: HeroEditor.Basic.Supplies.Potion2 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Potion3
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Potion3
+    SpriteId: HeroEditor.Basic.Supplies.Potion3
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.Potion3 [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.Potion3 [Paint]
+    SpriteId: HeroEditor.Basic.Supplies.Potion3 [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Supplies.Punch
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Supplies.Punch
+    SpriteId: HeroEditor.Christmas.Supplies.Punch
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.RareSilverRing
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.RareSilverRing
+    SpriteId: HeroEditor.Basic.Supplies.RareSilverRing
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Christmas.Supplies.RoundChristmasCandy
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Christmas.Supplies.RoundChristmasCandy
+    SpriteId: HeroEditor.Christmas.Supplies.RoundChristmasCandy
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.RoyalGoldenRing
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.RoyalGoldenRing
+    SpriteId: HeroEditor.Basic.Supplies.RoyalGoldenRing
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.SavageBoomerang
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.SavageBoomerang
+    SpriteId: HeroEditor.Basic.Supplies.SavageBoomerang
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.SilverRing
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.SilverRing
+    SpriteId: HeroEditor.Basic.Supplies.SilverRing
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.SmallPotion
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.SmallPotion
+    SpriteId: HeroEditor.Basic.Supplies.SmallPotion
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.SmallPotion [Paint]
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.SmallPotion [Paint]
+    SpriteId: HeroEditor.Basic.Supplies.SmallPotion [Paint]
+    Meta: '{"Paint"}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.SpikeBomb
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.SpikeBomb
+    SpriteId: HeroEditor.Basic.Supplies.SpikeBomb
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.ThrowingStar
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.ThrowingStar
+    SpriteId: HeroEditor.Basic.Supplies.ThrowingStar
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.ThrowingStar2
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.ThrowingStar2
+    SpriteId: HeroEditor.Basic.Supplies.ThrowingStar2
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.TribalBoomerang
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.TribalBoomerang
+    SpriteId: HeroEditor.Basic.Supplies.TribalBoomerang
+    Meta: '{}'
+    Localization: []
+  - Id: HeroEditor.Basic.Supplies.WaterBag
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: HeroEditor.Basic.Supplies.WaterBag
+    SpriteId: HeroEditor.Basic.Supplies.WaterBag
+    Meta: '{}'
+    Localization: []
+  BackgroundBlue: {fileID: 21300000, guid: 6a7965a697c24a689633cfa2a821ca7e, type: 3}
+  BackgroundBrown: {fileID: 21300000, guid: 533abca1f345417e984b150a43d1ef78, type: 3}
+  BackgroundGreen: {fileID: 21300000, guid: b7b50a648b914b71a63c6ede8a31ea9b, type: 3}
+  BackgroundGrey: {fileID: 21300000, guid: 176661c66228466f9f74c027f6d60f9f, type: 3}
+  BackgroundPurple: {fileID: 21300000, guid: 3d210ed8562242d3804c2502b7312c3a, type: 3}
+  BackgroundRed: {fileID: 21300000, guid: dbff44ea28934646b14fff229f0db0d9, type: 3}

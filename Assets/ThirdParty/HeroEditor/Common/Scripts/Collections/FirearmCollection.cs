@@ -20,7 +20,9 @@ namespace Assets.HeroEditor.Common.Scripts.Collections
 		[RuntimeInitializeOnLoadMethod]
 		private static void Initialize()
 		{
+#if UNITY_EDITOR
 			Instances = Resources.LoadAll<FirearmCollection>("").ToDictionary(i => i.Id, i => i);
+#endif
 		}
 		
 		public void OnValidate()

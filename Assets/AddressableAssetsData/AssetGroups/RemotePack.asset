@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: RemotePack
+  m_EditorClassIdentifier: 
+  m_GroupName: RemotePack
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 36a822ec368564c1fade63f23c997675
+  m_SerializeEntries:
+  - m_GUID: 9f9c92f9109284b1fac35e5f275a7630
+    m_Address: Lumber
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ecfc86dce5744f6b051f5825cbd5493
+    m_Address: Assets/ThirdParty/HeroEditor/FantasyHeroes/Atlases
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe0a8884b8caed24891b573d005f0c3d
+    m_Address: Assets/ThirdParty/HeroEditor/Common/Atlases
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e67ad709e474145dfa833d6bf2417cee
+    m_Address: Assets/Addressable/Dlls
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73c15721bcfd641309d35b16d57dd39f
+    m_Address: Assets/Addressable/Prefabs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: dc34ca9c002334faca3ad76bc4dbbe31, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c3a704140f9dd4bdc9516d23651c43c6, type: 2}
+    - {fileID: 11400000, guid: e65e19d5e81164547a7d64d13de57bbe, type: 2}
