@@ -1,0 +1,21 @@
+﻿{
+    "configs": {
+        "field_row": 0,
+        "type_row": 1,
+        "data_from_row": 3
+    },
+    "excels": [
+        {
+            "excel_name": "Assets/Editor/Excel/LootTable.xlsx",
+            "script_directory": "Assets/HotFix/Game/Specs",
+            "asset_directory": "Assets/Addressable/Specs",
+            "name_space": "HotFix.Game.Specs",
+            "use_hash_string": false,
+            "hide_asset_properties": false,
+            "use_public_items_getter": true,
+            "compress_color_into_int": true,
+            "treat_unknown_types_as_enum": true,
+            "generate_tostring_method": true
+        }
+    ]
+}

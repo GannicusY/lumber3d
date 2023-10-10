@@ -5,3 +5,7 @@
 /Temp/
 /UserSettings/Layouts/
 *.dwlt
+/androidBuild/
+/androidBuild_BurstDebugInformation_DoNotShip/
+/HybridCLRData/
+/ServerData/
