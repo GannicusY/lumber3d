@@ -53,7 +53,7 @@ namespace Assets.HeroEditor.Common.Scripts.ExampleScripts
 			var entry = Character.SpriteCollection.Firearm1H.SingleOrDefault(i => i.Name == spriteName && i.Collection == collectionName);
 			
 			Character.Equip(entry, EquipmentPart.Firearm1H);
-            Character.Firearm.Params = FirearmCollection.Instances[Character.SpriteCollection.Id].Firearms.SingleOrDefault(i => i.Name == spriteName);
+            // Character.Firearm.Params = FirearmCollection.Instances[Character.SpriteCollection.Id].Firearms.SingleOrDefault(i => i.Name == spriteName);
 		}
 
 		public void EquipShield(string spriteName, string collectionName)

@@ -120,10 +120,10 @@ namespace Assets.HeroEditor.Common.Scripts.CharacterScripts
 
             if (description.ContainsKey("Firearms"))
             {
-				RestoreFromString(ref Firearms, FirearmsRenderers, GetWeaponCollection(WeaponType), description["Firearms"]);
-				Firearm.Params = FindFirearmParams(description["FirearmParams"]);
-				PrimaryMeleeWeapon = SecondaryMeleeWeapon = null;
-                Bow = null;
+				// RestoreFromString(ref Firearms, FirearmsRenderers, GetWeaponCollection(WeaponType), description["Firearms"]);
+				// Firearm.Params = FindFirearmParams(description["FirearmParams"]);
+				// PrimaryMeleeWeapon = SecondaryMeleeWeapon = null;
+    //             Bow = null;
             }
             else
             {
@@ -291,16 +291,16 @@ namespace Assets.HeroEditor.Common.Scripts.CharacterScripts
 			}
 		}
 
-		private static FirearmParams FindFirearmParams(string weaponName)
-		{
-			foreach (var collection in FirearmCollection.Instances.Values)
-			{
-				var found = collection.Firearms.SingleOrDefault(i => i.Name == weaponName);
-
-				if (found != null) return found;
-			}
-
-			throw new Exception($"Can't find firearm params for {weaponName}.");
-		}
+		// private static FirearmParams FindFirearmParams(string weaponName)
+		// {
+		// 	foreach (var collection in FirearmCollection.Instances.Values)
+		// 	{
+		// 		var found = collection.Firearms.SingleOrDefault(i => i.Name == weaponName);
+		//
+		// 		if (found != null) return found;
+		// 	}
+		//
+		// 	throw new Exception($"Can't find firearm params for {weaponName}.");
+		// }
 	}
 }

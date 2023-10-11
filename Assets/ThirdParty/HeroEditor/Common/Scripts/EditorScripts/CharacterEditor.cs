@@ -193,54 +193,6 @@ namespace Assets.HeroEditor.Common.Scripts.EditorScripts
                     equippedIndex = Character.Bow == null ? -1 : sprites.FindIndex(i => i.Sprites.SequenceEqual(Character.Bow));
                     break;
                 }
-                case "Firearm1H":
-                {
-                    var sprites = SortCollection(SpriteCollection.Firearm1H);
-
-                    ItemCollection.Active.Items = sprites.Select(i => CreateFakeItemParams(new Item(i.Id), i)).ToList();
-                    equipAction = item =>
-                    {
-                        if (item.Id == null)
-                        {
-                            Character.Equip(null, EquipmentPart.MeleeWeapon1H);
-                        }
-                        else
-                        {
-                            var itemName = item.Id.Split('.')[3];
-
-                            Character.GetFirearm().Params = FindFirearmParams(itemName);
-                            Character.Equip(item.Sprite, EquipmentPart.Firearm1H);
-                        }
-                       
-                        Character.Animator.SetBool("Ready", true);
-                    };
-                    equippedIndex = Character.Firearms == null ? -1 : sprites.FindIndex(i => i.Sprites.SequenceEqual(Character.Firearms));
-                    break;
-                }
-                case "Firearm2H":
-                {
-                    var sprites = SortCollection(SpriteCollection.Firearm2H);
-
-                    ItemCollection.Active.Items = sprites.Select(i => CreateFakeItemParams(new Item(i.Id), i)).ToList();
-                    equipAction = item =>
-                    {
-                        if (item.Id == null)
-                        {
-                            Character.Equip(null, EquipmentPart.MeleeWeapon2H);
-                        }
-                        else
-                        {
-                            var itemName = item.Id.Split('.')[3];
-
-                            Character.GetFirearm().Params = FindFirearmParams(itemName);
-                            Character.Equip(item.Sprite, EquipmentPart.Firearm2H);
-                        }
-                        
-                        Character.Animator.SetBool("Ready", true);
-                    };
-                    equippedIndex = Character.Firearms == null ? -1 : sprites.FindIndex(i => i.Sprites.SequenceEqual(Character.Firearms));
-                    break;
-                }
                 case "Cape":
                 {
                     var sprites = SortCollection(SpriteCollection.Cape);
@@ -623,9 +575,9 @@ namespace Assets.HeroEditor.Common.Scripts.EditorScripts
 
 		protected override void SetFirearmParams(ItemSprite entry)
         {
-            if (entry == null) return;
-
-            Character.GetFirearm().Params = FindFirearmParams(entry.Name);
+            // if (entry == null) return;
+            //
+            // Character.GetFirearm().Params = FindFirearmParams(entry.Name);
 		}
 
         private Color _color;
@@ -766,17 +718,17 @@ namespace Assets.HeroEditor.Common.Scripts.EditorScripts
             StartCoroutine(StandaloneFilePicker.SaveFile($"Save {ActiveTab.name}", "", ItemName.text, "png", bytes, (success, path) => { Debug.Log(success ? $"Saved as {path}" : "Error saving."); }));
         }
 
-        private static FirearmParams FindFirearmParams(string weaponName)
-        {
-            foreach (var collection in FirearmCollection.Instances.Values)
-            {
-                var found = collection.Firearms.SingleOrDefault(i => i.Name == weaponName);
-
-                if (found != null) return found;
-            }
-
-            throw new Exception($"Can't find firearm params for {weaponName}.");
-        }
+        // private static FirearmParams FindFirearmParams(string weaponName)
+        // {
+        //     foreach (var collection in FirearmCollection.Instances.Values)
+        //     {
+        //         var found = collection.Firearms.SingleOrDefault(i => i.Name == weaponName);
+        //
+        //         if (found != null) return found;
+        //     }
+        //
+        //     throw new Exception($"Can't find firearm params for {weaponName}.");
+        // }
 
         protected override void FeedbackTip()
 	    {
