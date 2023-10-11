@@ -1,6 +1,7 @@
 using System;
 using _Game.Scripts.Base;
 using _Game.Scripts.Data;
+using _Game.Scripts.UI;
 using Assets.HeroEditor.Common.Scripts.CharacterScripts;
 using Assets.HeroEditor.InventorySystem.Scripts.Data;
 using HotFix.Game;
@@ -12,7 +13,9 @@ namespace _Game.Scripts
     public class GameManager : BaseMonoSingleton<GameManager>
     {
         public LumberInventory Inventory;
+        public Button BtnAttackTouch;
         public Button BtnAttack;
+        public Button BtnPack;
         public Character Axeman;
 
         private bool _blockAttack;
@@ -21,7 +24,14 @@ namespace _Game.Scripts
         {
             DataManager.Instance.AssignCharacter(ref Axeman);
             BtnAttack.onClick.AddListener(OnAttackClick);
+            BtnAttackTouch.onClick.AddListener(OnAttackClick);
+            BtnPack.onClick.AddListener(OnPackClick);
             Inventory.OnEquip = OnInventoryEquip;
+        }
+
+        private void OnPackClick()
+        {
+            UIManager.Instance.PushPopupPanel("玩家背包", "背包列表");
         }
 
         private void OnAttackClick()
@@ -35,6 +45,8 @@ namespace _Game.Scripts
         private void OnDestroy()
         {
             BtnAttack.onClick.RemoveListener(OnAttackClick);
+            BtnAttackTouch.onClick.RemoveListener(OnAttackClick);
+            BtnPack.onClick.RemoveListener(OnPackClick);
         }
 
         public void OnRewardItem(Item item)

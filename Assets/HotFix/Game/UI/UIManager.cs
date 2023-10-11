@@ -3,6 +3,7 @@ using System.Linq;
 using _Game.Scripts.Base;
 using NUnit.Framework;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 namespace _Game.Scripts.UI
 {
@@ -14,7 +15,29 @@ namespace _Game.Scripts.UI
         public GameObject popupPrefab;
         public GameObject tipsPrefab;
             
-        private List<CommonPopupPanel> _popupPanels = new();
+        private List<GameObject> _popupPanels = new();
+
+        public void PushUI(string location)
+        {
+            Addressables.InstantiateAsync(location).Completed += handle =>
+            {
+                DoPushUI(handle.Result);
+            };
+        }
+        
+        private void DoPushUI(GameObject obj)
+        {
+            if (_popupPanels.Contains(obj))
+            {
+                Debug.Log("this obj is already in UI,pop to top!");
+                _popupPanels.Remove(obj);
+                _popupPanels.Add(obj);
+            }
+            else
+            {
+                _popupPanels.Add(obj);
+            }
+        }
 
         public void PushPopupPanel(string title, string msg)
         {
@@ -29,13 +52,13 @@ namespace _Game.Scripts.UI
             };
             popupPanel.DestroyEvent = CleanPopupPanelOnTop;
             popupPanel.ShowPopup(panelComp);
-            _popupPanels.Add(popupPanel);
+            _popupPanels.Add(popupPanel.gameObject);
         }
 
         private void CleanPopupPanelOnTop(CommonPopupPanel panel)
         {
             if(_popupPanels.Count <= 0) return;
-            _popupPanels.Remove(panel);
+            _popupPanels.Remove(panel.gameObject);
         }
 
         public void ForceCleanTopPanel()

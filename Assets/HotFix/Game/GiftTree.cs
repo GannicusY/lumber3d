@@ -82,12 +82,12 @@ namespace HotFix.Game
                 curWeight += item.weight;
                 if (curWeight > randomValue)
                 {
-                    return item.key;
+                    return LootTable.GetItem(item.item).key;
                 }
             }
 
             Debug.LogError($"random value:{randomValue} out of range:0-{totalWeight}");
-            return items.Last().key;
+            return LootTable.GetItem(items.Last().item).key;
         }
 
         private string RandomItemIdByParam()

@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _LootItems:
   - _Id: 1
-    _Key: HeroEditor.Knights.Shield.CrusaderShield
+    _Item: 1
     _Weight: 1
   - _Id: 2
-    _Key: HeroEditor.Basic.Supplies.Gold
+    _Item: 2
     _Weight: 2
   - _Id: 3
-    _Key: HeroEditor.Basic.MeleeWeapon1H.FireAdeptWand1
+    _Item: 3
     _Weight: 1
   - _Id: 4
-    _Key: HeroEditor.Vikings.MeleeWeapon1H.VikingAxe1
+    _Item: 4
     _Weight: 3
   _ItemItems:
   - _Id: 1

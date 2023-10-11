@@ -123,8 +123,8 @@ namespace HotFix.Game.Specs {
 		public int id { get { return _Id; } }
 
 		[SerializeField]
-		private string _Key;
-		public string key { get { return _Key; } }
+		private int _Item;
+		public int item { get { return _Item; } }
 
 		[SerializeField]
 		private int _Weight;
@@ -139,8 +139,8 @@ namespace HotFix.Game.Specs {
 		}
 
 		public override string ToString() {
-			return string.Format("[Loot]{{id:{0}, key:{1}, weight:{2}}}",
-				id, key, weight);
+			return string.Format("[Loot]{{id:{0}, item:{1}, weight:{2}}}",
+				id, item, weight);
 		}
 
 	}
