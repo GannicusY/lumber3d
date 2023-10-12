@@ -1,0 +1,1 @@
+{"ResourceUpdateType":1,"PathType":0,"ResOfficialUpdatePath":"http://192.168.0.132/lumber/dev/Addressable","ResTestUpdatePath":"Test","DefaultInStreamingAsset":false,"DebugEnable":true,"DebugLogMaxLine":100,"ConfigPath":"http://192.168.0.132/lumber/dev","LogFileEnable":false,"AppVersion":"0.1.1","DefineSymbols":"UNITASK_DOTWEEN_SUPPORT;ADDRESSABLES_SUPPORT"}
