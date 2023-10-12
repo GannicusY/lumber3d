@@ -12,11 +12,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{141a8a4b-d084-81f2-9f40-1ebde54ee2ca}</ProjectGuid>
+    <ProjectGuid>{7e600232-1e28-5cc4-c394-205d09721e57}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <AssemblyName>spine-unity</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -25,12 +25,12 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>Temp\Bin\Debug\Assembly-CSharp-Editor\</OutputPath>
-    <DefineConstants>UNITY_2022_3_5;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;UNITASK_DOTWEEN_SUPPORT;ADDRESSABLES_SUPPORT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
+    <OutputPath>Temp\Bin\Debug\spine-unity\</OutputPath>
+    <DefineConstants>UNITY_2022_3_5;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;UNITASK_DOTWEEN_SUPPORT;ADDRESSABLES_SUPPORT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup>
@@ -45,64 +45,189 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets/UnityGameFramework/Editor/GameMode/Module/ConfigModuleEditor.cs" />
-     <Compile Include="Assets/ThirdParty/HeroEditor/Common/Scripts/Editor/SpriteCollectionEditor.cs" />
-     <Compile Include="Assets/Editor/UGUICircularScrollView/Editor/ExpandTipsCircularScrollViewEditor.cs" />
-     <Compile Include="Assets/Editor/EasySave3/Editor/ES3SettingsEditor.cs" />
-     <Compile Include="Assets/Editor/EasySave3/Editor/SettingsWindow.cs" />
-     <Compile Include="Assets/Editor/EasySave3/Editor/ES3AutoSaveMgrEditor.cs" />
-     <Compile Include="Assets/UnityGameFramework/Editor/GameMode/Module/ResourceModuleEditor.cs" />
-     <Compile Include="Assets/UnityGameFramework/Editor/GameMode/CustomModuleEditor.cs" />
-     <Compile Include="Assets/Editor/EasySave3/Editor/ES3ReferenceMgrEditor.cs" />
-     <Compile Include="Assets/Editor/EasySave3/Editor/ES3PrefabEditor.cs" />
-     <Compile Include="Assets/Editor/EasySave3/Editor/ES3EditorUtility.cs" />
-     <Compile Include="Assets/Editor/UGUICircularScrollView/Editor/FlipPageCircularScrollViewEditor.cs" />
-     <Compile Include="Assets/Editor/HybridCLR/BuildPlayerCommand.cs" />
-     <Compile Include="Assets/UnityGameFramework/Editor/GameMode/Module/StateModuleEditor.cs" />
-     <Compile Include="Assets/ThirdParty/HeroEditor/Common/Scripts/Editor/IconCollectionEditor.cs" />
-     <Compile Include="Assets/Editor/EasySave3/Editor/ES3PlayMakerEditor.cs" />
-     <Compile Include="Assets/Editor/HybridCLR/BuildAssetsCommand.cs" />
-     <Compile Include="Assets/Editor/EasySave3/Editor/ES3Window.cs" />
-     <Compile Include="Assets/Editor/EasySave3/Editor/AutoSaveWindow.cs" />
-     <Compile Include="Assets/Editor/UGUICircularScrollView/Editor/ExpandCircularScrollViewEditor.cs" />
-     <Compile Include="Assets/UnityGameFramework/Editor/GameMode/ModuleEditorBase.cs" />
-     <Compile Include="Assets/UnityGameFramework/Editor/GameMode/Module/FSModuleEditor.cs" />
-     <Compile Include="Assets/Editor/EasySave3/Editor/ES3InspectorInfoEditor.cs" />
-     <Compile Include="Assets/Editor/EasySave3/Editor/ToolsWindow.cs" />
-     <Compile Include="Assets/UnityGameFramework/Editor/GameMode/Module/SettingModuleEditor.cs" />
-     <Compile Include="Assets/Editor/EasySave3/Editor/ES3AutoSaveEditor.cs" />
-     <Compile Include="Assets/Editor/EasySave3/Editor/HomeWindow.cs" />
-     <Compile Include="Assets/Editor/EasySave3/Editor/ES3EditorStyle.cs" />
-     <Compile Include="Assets/UnityGameFramework/Editor/GameMode/GameModeEditor.cs" />
-     <Compile Include="Assets/Editor/EasySave3/Editor/ReferencesWindow.cs" />
-     <Compile Include="Assets/ThirdParty/HeroEditor/Common/Scripts/Editor/LayerManagerEditor.cs" />
-     <Compile Include="Assets/Editor/EasySave3/Editor/TypesWindow.cs" />
-     <Compile Include="Assets/Editor/EasySave3/Editor/AddES3Prefab.cs" />
-     <Compile Include="Assets/Editor/EasySave3/Editor/ES3Postprocessor.cs" />
-     <Compile Include="Assets/Editor/UGUICircularScrollView/Editor/UICircularScrollViewEditor.cs" />
-     <Compile Include="Assets/Editor/EasySave3/Editor/ES3GlobalReferencesEditor.cs" />
-     <Compile Include="Assets/Editor/AddressableUtil/AddressableUtil.cs" />
-     <Folder Include="Assets/UnityGameFramework/Editor" />
-     <None Include="Assets/Editor/EasySave3/Editor/ES3Type_MaterialTemplate.txt" />
-     <Folder Include="Assets/Editor/UGUICircularScrollView" />
-     <Folder Include="Assets/Editor/UniWebView" />
-     <Folder Include="Assets/Editor/HybridCLR" />
-     <Folder Include="Assets/UnityGameFramework/Editor/GameMode/Module" />
-     <None Include="Assets/Editor/EasySave3/Editor/ES3ScriptableObjectTypeTemplate.txt" />
-     <None Include="Assets/Editor/EasySave3/Editor/ES3ComponentTypeTemplate.txt" />
-     <Folder Include="Assets/Editor" />
-     <Folder Include="Assets/Editor/EasySave3" />
-     <Folder Include="Assets/Editor/Spine" />
-     <Folder Include="Assets/Editor/UGUICircularScrollView/Editor" />
-     <Folder Include="Assets/Editor/Excel" />
-     <Folder Include="Assets/ThirdParty/HeroEditor/Common/Scripts/Editor" />
-     <None Include="Assets/Editor/EasySave3/Editor/ES3TypeTemplate.txt" />
-     <Folder Include="Assets/UnityGameFramework/Editor/GameMode" />
-     <Folder Include="Assets/Editor/UnityWebSocket" />
-     <Folder Include="Assets/Editor/EasySave3/Editor" />
-     <Folder Include="Assets/Editor/AddressableUtil" />
-     <None Include="Assets/Editor/EasySave3/Editor/ES3ClassTypeTemplate.txt" />
-     <None Include="Assets/Editor/EasySave3/Editor/ES3ValueTypeTemplate.txt" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/Following/PointFollower.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowSkeletonUtilityRootRotation.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Atlas.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/MathUtils.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Json.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/IkConstraint.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Modules/TK2D/SpriteCollectionAttachmentLoader.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Deprecated/SlotBlendModes/SlotBlendModes.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/SpineAttributes.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Attachments/AtlasAttachmentLoader.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/SkeletonUtility/ActivateBasedOnFlipDirection.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/SkeletonRenderer.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/TransformConstraint.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Asset Types/SkeletonDataModifierAsset.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimationEnd.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/ExposedList.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/BlendModeMaterialsAsset.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Mesh Generation/SpineMesh.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Mesh Generation/DoubleBuffered.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimationComplete.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Asset Types/SkeletonDataCompatibility.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtility.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/SkeletonBounds.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Attachments/AttachmentLoader.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Utility/SkinUtilities.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/IUpdatable.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Bone.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/SkeletonBinary.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Asset Types/EventDataReferenceAsset.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonMecanimRootMotion.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Attachments/PathAttachment.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Utility/MaterialChecks.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Asset Types/SpineSpriteAtlasAsset.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Asset Types/AnimationReferenceAsset.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Mesh Generation/MeshGenerator.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/Following/BoundingBoxFollowerGraphic.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/SkeletonRendererCustomMaterials/SkeletonRendererCustomMaterials.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/SkeletonAnimation.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/SkeletonData.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonRootMotion.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Asset Types/BlendModeMaterials.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Asset Types/SpineAtlasAsset.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineTrackEntryEnd.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Mesh Generation/MeshRendererBuffers.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Utility/AtlasUtilities.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/AnimationStateData.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Asset Types/AtlasAssetBase.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Attachments/Attachment.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/SkeletonRenderSeparator/SkeletonRenderSeparator.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/ISkeletonAnimation.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/SkeletonJson.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/BlendMode.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowLocationRigidbody.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Asset Types/SkeletonDataAsset.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtilityConstraint.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Utility/TimelineExtensions.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtilityBone.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Attachments/MeshAttachment.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/SkeletonGraphic.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Triangulator.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/IkConstraintData.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Attachments/BoundingBoxAttachment.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/Following/BoneFollowerGraphic.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Collections/OrderedDictionary.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Utility/AttachmentCloneExtensions.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Slot.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/SkeletonRenderSeparator/SkeletonPartsRenderer.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/BoneData.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Attachments/ClippingAttachment.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/ConstraintData.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimation.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/PathConstraint.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonRootMotionBase.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Skeleton.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/SkeletonMecanim.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Attachments/AttachmentType.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/Following/BoneFollower.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Asset Types/RegionlessAttachmentLoader.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/SkeletonRendererCustomMaterials/SkeletonGraphicCustomMaterials.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/SlotData.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/Following/BoundingBoxFollower.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Animation.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Skin.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/AnimationState.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/TransformConstraintData.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Attachments/VertexAttachment.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowLocationRigidbody2D.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Utility/AttachmentRegionExtensions.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/PathConstraintData.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/EventData.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineEvent.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Utility/SkeletonExtensions.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/SkeletonClipping.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Mesh Generation/SkeletonRendererInstruction.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Attachments/RegionAttachment.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Event.cs" />
+     <Compile Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Attachments/PointAttachment.cs" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Lit.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline/Sprite/SpritesPixelLit-Outline.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Sprite/SpritesPixelLit.shader" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Deprecated" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Fill-Outline.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Tint-Outline.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic-TintBlack.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline/BlendModes/Spine-Skeleton-PMA-Multiply-Outline.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteLighting.cginc" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/RootMotion" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteUnlit.cginc" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/SkeletonUtility" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/CGIncludes" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline/Sprite/SpritesVertexLit-Outline.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Multiply.shader" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Collections" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline/SkeletonGraphic/Spine-SkeletonGraphic-TintBlack-Outline.shader" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/SkeletonDataModifierAssets" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Skeleton-Tint-Common.cginc" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Utility/HiddenPass.shader" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline/SkeletonGraphic" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline/BlendModes/Spine-Skeleton-PMA-Additive-Outline.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Skeleton-Lit-Common-Shadow.cginc" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline/Sprite" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Sprite/SpritesVertexLit.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline/Sprite/SpritesUnlit-Outline.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Sprite/CameraDepthNormalsTexture.shader" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Utility/YieldInstructions" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Additive.shader" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/ShaderMaths.cginc" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Utility" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-TintBlack-Outline.shader" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Utility" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Outline-Common.cginc" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Spine-Special-Skeleton-Grayscale.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteShadows.cginc" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Lit-ZWrite-Outline.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/ShaderShared.cginc" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Utility/Hidden-Spine-Bones.shader" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Modules" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-OutlineOnly-ZWrite.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Outline.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Sprite/CameraDepthTexture.shader" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline/CGIncludes" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Materials" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/SkeletonRendererCustomMaterials" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Fill.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Skeleton-Lit-Common.cginc" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Deprecated/SlotBlendModes" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline/BlendModes/Spine-Skeleton-PMA-Screen-Outline.shader" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Sprite" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp/Attachments" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Tint.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Lit-ZWrite.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteSpecular.cginc" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Screen.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Sprite/SpritesUnlit.shader" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/Following" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/BlendModes" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Sprite/SpriteDepthNormalsTexture.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteVertexLighting.cginc" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline/CGIncludes/Spine-Outline-Pass.cginc" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Sprite/CameraNormalsTexture.shader" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components/SkeletonRenderSeparator" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Modules/TK2D" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Special-Skeleton-Grayscale-Outline.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-TintBlack.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity.asmdef" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline/SkeletonGraphic/Spine-SkeletonGraphic-Outline.shader" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic.shader" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Mesh Generation" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Asset Types" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-csharp" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline/BlendModes" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-DepthOnlyPass.cginc" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Lit-Outline.shader" />
+     <Folder Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Components" />
+     <None Include="Assets/UnityGameFramework/Libraries/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpritePixelLighting.cginc" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -129,12 +254,6 @@
      </Reference>
      <Reference Include="UnityEngine.ClothModule">
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.ClusterInputModule">
-     <HintPath>/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.ClusterRendererModule">
-     <HintPath>/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ContentLoadModule">
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll</HintPath>
@@ -180,9 +299,6 @@
      </Reference>
      <Reference Include="UnityEngine.LocalizationModule">
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.NVIDIAModule">
-     <HintPath>/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.NVIDIAModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ParticleSystemModule">
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
@@ -297,9 +413,6 @@
      </Reference>
      <Reference Include="UnityEngine.VideoModule">
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.VirtualTexturingModule">
-     <HintPath>/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.WindModule">
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
@@ -814,225 +927,14 @@
      <Reference Include="netstandard">
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll</HintPath>
      </Reference>
-     <Reference Include="UnityEditor.TestRunner">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.TestRunner">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
-     </Reference>
-     <Reference Include="GreatClock.ExcelToScriptableObject.Editor">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/GreatClock.ExcelToScriptableObject.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="HybridCLR.Runtime">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/HybridCLR.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.AI.Navigation">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.AI.Navigation.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Burst.Editor">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ResourceManager">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.ResourceManager.dll</HintPath>
-     </Reference>
-     <Reference Include="HybridCLR.Editor">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/HybridCLR.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ScriptableBuildPipeline">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Rider.Editor">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Sprite.Editor">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Core.Editor">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Mathematics.Editor">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
-     </Reference>
-     <Reference Include="PPv2URPConverters">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/PPv2URPConverters.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Profiling.Core">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.Profiling.Core.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Burst">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Timeline.Editor">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ShaderGraph.Editor">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
      <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Timeline">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Addressables.Editor">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.Addressables.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.AI.Navigation.Updater">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Mathematics">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Searcher.Editor">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.AI.Navigation.Editor">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ScriptableBuildPipeline.Editor">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Addressables">
-     <HintPath>/Users/xscy/work_repo/lumber3d/Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
-     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{c9783bef-0105-fb3c-1e4d-becefa9f316b}</Project>
-      <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniWebView-CSharp.csproj">
-      <Project>{605d2477-66ef-10d6-d129-07d6fbb5d803}</Project>
-      <Name>UniWebView-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="LogViewer.csproj">
-      <Project>{55b587aa-69f2-5b2e-12fe-d64a850f1f5a}</Project>
-      <Name>LogViewer</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.csproj">
-      <Project>{bea6db93-4dfd-aa4d-7018-bb4d9bd51bad}</Project>
-      <Name>UniTask</Name>
-    </ProjectReference>
-    <ProjectReference Include="GameFramework.csproj">
-      <Project>{3fec46fb-2b5d-ac62-8d78-ff56aaa91af2}</Project>
-      <Name>GameFramework</Name>
-    </ProjectReference>
-    <ProjectReference Include="spine-unity-editor.csproj">
-      <Project>{dbd3f380-674e-f6a2-3528-666f104f5a22}</Project>
-      <Name>spine-unity-editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniWebView-CSharp.Editor.csproj">
-      <Project>{6b950f7e-f9d6-bc0b-7dc0-14592adafa28}</Project>
-      <Name>UniWebView-CSharp.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniRx.csproj">
-      <Project>{1eff28a0-7f17-f97e-f42f-421f4480680d}</Project>
-      <Name>UniRx</Name>
-    </ProjectReference>
-    <ProjectReference Include="spine-unity.csproj">
-      <Project>{7e600232-1e28-5cc4-c394-205d09721e57}</Project>
-      <Name>spine-unity</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityWebSocket.Editor.csproj">
-      <Project>{d2111882-d989-1712-9c50-8bd4139cda66}</Project>
-      <Name>UnityWebSocket.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="EasySave3.csproj">
-      <Project>{d33f011f-1cb1-983e-6696-417cb1368ad6}</Project>
-      <Name>EasySave3</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.TextMeshPro.csproj">
-      <Project>{c263fcec-9c79-5547-8ac8-4abec0fbc259}</Project>
-      <Name>UniTask.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="GameFramework.Editor.csproj">
-      <Project>{96b8c086-6deb-317c-de22-8eeefbfb2523}</Project>
-      <Name>GameFramework.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Libraries.csproj">
-      <Project>{19050d6d-0e22-4f8a-4364-3c0f0485f5ac}</Project>
-      <Name>Libraries</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.Addressables.csproj">
-      <Project>{a55c7cf2-3ba2-d52a-5ab8-00d7dbb1c071}</Project>
-      <Name>UniTask.Addressables</Name>
-    </ProjectReference>
-    <ProjectReference Include="Main.csproj">
-      <Project>{762e41c2-ccb3-85f3-a73e-f0d653543c76}</Project>
-      <Name>Main</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityWebSocket.Runtime.csproj">
-      <Project>{0700f0c9-11a7-c827-ef2d-28af17b5a3f9}</Project>
-      <Name>UnityWebSocket.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.Linq.csproj">
-      <Project>{38019564-bc16-bee1-2448-dac3ae482328}</Project>
-      <Name>UniTask.Linq</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.DOTween.csproj">
-      <Project>{18ab6e6e-1d35-7184-2835-a48e962332ee}</Project>
-      <Name>UniTask.DOTween</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
