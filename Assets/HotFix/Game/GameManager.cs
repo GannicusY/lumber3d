@@ -5,6 +5,8 @@ using _Game.Scripts.UI;
 using Assets.HeroEditor.Common.Scripts.CharacterScripts;
 using Assets.HeroEditor.InventorySystem.Scripts.Data;
 using HotFix.Game;
+using HotFix.Game.UI;
+using Main.Base;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -31,7 +33,7 @@ namespace _Game.Scripts
 
         private void OnPackClick()
         {
-            UIManager.Instance.PushPopupPanel("玩家背包", "背包列表");
+            GameMode.UI.Push(NoticeUIView.AssetPath);
         }
 
         private void OnAttackClick()
