@@ -44,3 +44,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f93792f0f4c456c895bba20cadc5e97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: HybridClr
