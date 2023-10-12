@@ -94,7 +94,7 @@ MonoBehaviour:
       - m_Id: d1a63b09959be4a51bac5513d143b66f
         m_Value: ServerData/[BuildTarget]
       - m_Id: 6ab709e5216ff498792f1dfa50d5c260
-        m_Value: http://192.168.0.132/Addressable/[BuildTarget]
+        m_Value: http://192.168.0.132/lumber/dev/addressable/[BuildTarget]
     m_ProfileEntryNames:
     - m_Id: 324bc263db80640a78743390a018c48c
       m_Name: BuildTarget
