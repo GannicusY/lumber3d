@@ -1,0 +1,19 @@
+{
+    "name": "Libraries",
+    "rootNamespace": "",
+    "references": [
+        "GUID:eb81165bd7e74ef19a69955294472d6a",
+        "GUID:476fe3b0f32441c6ac14935a95bfe7d9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        ""
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
